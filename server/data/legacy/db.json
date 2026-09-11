@@ -1,0 +1,3275 @@
+{
+  "settings": {
+    "storeName": "NexusTech Electronics",
+    "tagline": "Kenya's Premier Tech & Computing Destination",
+    "phone": "+254 759 508 348",
+    "altPhone": "+254 759 508 348",
+    "email": "sales@nexustech.co.ke",
+    "supportEmail": "support@nexustech.co.ke",
+    "whatsappNumber": "+254759508348",
+    "address": "Nexus Tower, 4th Floor, Kimathi Street, Nairobi CBD, Kenya",
+    "currency": "KES",
+    "currencySymbol": "KES ",
+    "taxRate": 16,
+    "pricesIncludeTax": true,
+    "freeShippingThreshold": 50000,
+    "mpesaPaybill": "522522",
+    "mpesaAccountNo": "1290887645",
+    "mpesaTill": "889922",
+    "mpesaPasskey": "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919",
+    "mpesaConsumerKey": "NexusDarajaKeyProd2026",
+    "mpesaConsumerSecret": "NexusDarajaSecretProd2026",
+    "theme": {
+      "primaryColor": "#0b132b",
+      "secondaryColor": "#1c2541",
+      "accentColor": "#0284c7",
+      "highlightColor": "#06b6d4"
+    },
+    "socialLinks": {
+      "facebook": "https://facebook.com/nexustechelectronics",
+      "instagram": "https://instagram.com/nexustech_ke",
+      "twitter": "https://twitter.com/nexustech_ke",
+      "tiktok": "https://tiktok.com/@nexustechkenya",
+      "youtube": "https://youtube.com/@nexustechke"
+    }
+  },
+  "deliveryZones": [
+    {
+      "id": "dz-1",
+      "name": "Nairobi Metro (Same Day Delivery)",
+      "fee": 350,
+      "estimatedTime": "2-4 Hours",
+      "freeThreshold": 50000
+    },
+    {
+      "id": "dz-2",
+      "name": "Kiambu / Thika / Machakos / Kajiado",
+      "fee": 450,
+      "estimatedTime": "Same Day / Next Morning",
+      "freeThreshold": 60000
+    },
+    {
+      "id": "dz-3",
+      "name": "Mombasa & Coastal Region",
+      "fee": 650,
+      "estimatedTime": "24-48 Hours (G4S / Fargo Courier)",
+      "freeThreshold": 80000
+    },
+    {
+      "id": "dz-4",
+      "name": "Nakuru / Eldoret / Rift Valley",
+      "fee": 600,
+      "estimatedTime": "24 Hours (Direct Express)",
+      "freeThreshold": 80000
+    },
+    {
+      "id": "dz-5",
+      "name": "Kisumu & Western Kenya",
+      "fee": 700,
+      "estimatedTime": "24-48 Hours",
+      "freeThreshold": 80000
+    },
+    {
+      "id": "dz-6",
+      "name": "Mount Kenya (Nyeri, Meru, Embu)",
+      "fee": 550,
+      "estimatedTime": "24 Hours",
+      "freeThreshold": 75000
+    },
+    {
+      "id": "dz-7",
+      "name": "Free Store Pickup — Nairobi CBD (Kimathi St)",
+      "fee": 0,
+      "estimatedTime": "Ready in 30 Mins",
+      "freeThreshold": 0
+    },
+    {
+      "id": "dz-8",
+      "name": "Free Store Pickup — Westlands Branch (Sarit Centre)",
+      "fee": 0,
+      "estimatedTime": "Ready in 30 Mins",
+      "freeThreshold": 0
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-1",
+      "name": "NexusTech Flagship Experience Store — Nairobi CBD",
+      "address": "Ground Floor, Nexus Tower, Kimathi Street opposite Nation Centre",
+      "city": "Nairobi",
+      "phone": "+254 759 508 348",
+      "hours": "Mon - Sat: 8:00 AM - 8:00 PM | Sun: 10:00 AM - 5:00 PM",
+      "services": [
+        "Sales",
+        "Warranty Claims",
+        "Hardware Upgrades",
+        "Device Trade-In",
+        "Collection Point"
+      ],
+      "coordinates": {
+        "lat": -1.2841,
+        "lng": 36.8223
+      }
+    },
+    {
+      "id": "store-2",
+      "name": "NexusTech TechHub — Westlands Branch",
+      "address": "Level 2, Sarit Centre Wing B, Karuna Road, Westlands",
+      "city": "Nairobi",
+      "phone": "+254 759 508 348",
+      "hours": "Mon - Sun: 9:00 AM - 9:00 PM",
+      "services": [
+        "Sales",
+        "VIP Experience Lounge",
+        "Custom PC Building",
+        "Collection Point"
+      ],
+      "coordinates": {
+        "lat": -1.2612,
+        "lng": 36.8044
+      }
+    },
+    {
+      "id": "store-3",
+      "name": "NexusTech Coastal Hub — Mombasa",
+      "address": "Nyali Plaza, Links Road, Nyali, Mombasa",
+      "city": "Mombasa",
+      "phone": "+254 759 508 348",
+      "hours": "Mon - Sat: 8:30 AM - 7:00 PM",
+      "services": [
+        "Sales",
+        "Fast Coastal Dispatch",
+        "Collection Point"
+      ],
+      "coordinates": {
+        "lat": -4.0435,
+        "lng": 39.6682
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-smartphones",
+      "name": "Smartphones",
+      "slug": "smartphones",
+      "icon": "Smartphone",
+      "description": "Flagship & budget 5G phones from Apple, Samsung, Google, Xiaomi & more with official warranties.",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80",
+      "productCount": 32,
+      "subcategories": [
+        "Apple iPhone",
+        "Samsung Galaxy",
+        "Google Pixel",
+        "Xiaomi & Redmi",
+        "OnePlus",
+        "Tecno & Infinix",
+        "Oppo & Vivo"
+      ]
+    },
+    {
+      "id": "cat-laptops",
+      "name": "Laptops",
+      "slug": "laptops",
+      "icon": "Laptop",
+      "description": "Ultra-portable MacBooks, executive Dell & HP business laptops, and high-performance gaming rigs.",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "productCount": 28,
+      "subcategories": [
+        "Apple MacBook",
+        "Dell Business & XPS",
+        "HP Spectre & Envy",
+        "Lenovo ThinkPad",
+        "ASUS ZenBook & ROG",
+        "Gaming Laptops",
+        "Refurbished Grade A"
+      ]
+    },
+    {
+      "id": "cat-computers",
+      "name": "Desktop Computers",
+      "slug": "computers",
+      "icon": "Monitor",
+      "description": "Powerhouse workstations, All-in-One desktops, compact Mini PCs, and custom builder rigs.",
+      "image": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&auto=format&fit=crop&q=80",
+      "productCount": 18,
+      "subcategories": [
+        "Apple Mac Studio & Mini",
+        "All-in-One PCs",
+        "Business Desktops",
+        "Custom Creator Workstations",
+        "Tower Rigs"
+      ]
+    },
+    {
+      "id": "cat-tablets",
+      "name": "Tablets & iPads",
+      "slug": "tablets",
+      "icon": "Tablet",
+      "description": "Apple iPad Pro M4, iPad Air, Samsung Galaxy Tabs, and Microsoft Surface hybrids with stylus support.",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80",
+      "productCount": 16,
+      "subcategories": [
+        "Apple iPad Pro & Air",
+        "Samsung Galaxy Tab",
+        "Microsoft Surface",
+        "Drawing Tablets",
+        "Budget Tablets"
+      ]
+    },
+    {
+      "id": "cat-accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "icon": "Headphones",
+      "description": "Fast GaN chargers, premium noise-cancelling headphones, wireless earbuds, docks, and mice.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "productCount": 45,
+      "subcategories": [
+        "Chargers & Power Banks",
+        "Cables & Adapters",
+        "Headphones & Earbuds",
+        "Keyboards & Mice",
+        "Laptop Bags & Sleeves",
+        "Phone Cases & Glass"
+      ]
+    },
+    {
+      "id": "cat-components",
+      "name": "Computer Components",
+      "slug": "components",
+      "icon": "Cpu",
+      "description": "High-end NVIDIA GPUs, Intel & AMD Ryzen processors, Gen 4/5 NVMe SSDs, and DDR5 RAM.",
+      "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&auto=format&fit=crop&q=80",
+      "productCount": 22,
+      "subcategories": [
+        "Graphics Cards (GPU)",
+        "Processors (CPU)",
+        "Motherboards",
+        "RAM Memory",
+        "NVMe & SATA SSDs",
+        "Power Supplies (PSU)",
+        "PC Cases & Liquid Cooling"
+      ]
+    },
+    {
+      "id": "cat-networking",
+      "name": "Networking",
+      "slug": "networking",
+      "icon": "Wifi",
+      "description": "Enterprise Ubiquiti UniFi, WiFi 6/7 Mesh routers, Gigabit PoE switches, and 5G portable modems.",
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
+      "productCount": 16,
+      "subcategories": [
+        "WiFi 6/7 Routers",
+        "Mesh Systems",
+        "PoE Network Switches",
+        "Enterprise Access Points",
+        "5G Mobile Modems",
+        "Cat6/Cat7 Cabling"
+      ]
+    },
+    {
+      "id": "cat-gaming",
+      "name": "Gaming Gear",
+      "slug": "gaming",
+      "icon": "Gamepad2",
+      "description": "PlayStation 5, Xbox Series X, Nintendo Switch, handheld consoles, RGB mechanical keyboards, and headsets.",
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80",
+      "productCount": 18,
+      "subcategories": [
+        "Consoles (PS5, Xbox, Switch)",
+        "Handheld Rigs (Steam Deck, ROG Ally)",
+        "Wireless Controllers",
+        "Gaming Headsets",
+        "Mechanical Keyboards",
+        "Gaming Mice"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": "b-apple",
+      "name": "Apple",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+      "count": 35
+    },
+    {
+      "id": "b-samsung",
+      "name": "Samsung",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+      "count": 28
+    },
+    {
+      "id": "b-dell",
+      "name": "Dell",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg",
+      "count": 18
+    },
+    {
+      "id": "b-hp",
+      "name": "HP",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/HP_logo_630x630.png",
+      "count": 16
+    },
+    {
+      "id": "b-lenovo",
+      "name": "Lenovo",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Lenovo_logo_2015.svg",
+      "count": 15
+    },
+    {
+      "id": "b-asus",
+      "name": "ASUS",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/ASUS_Logo.svg",
+      "count": 14
+    },
+    {
+      "id": "b-sony",
+      "name": "Sony",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg",
+      "count": 12
+    },
+    {
+      "id": "b-google",
+      "name": "Google",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+      "count": 10
+    },
+    {
+      "id": "b-anker",
+      "name": "Anker",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Anker_logo.svg/800px-Anker_logo.svg.png",
+      "count": 15
+    },
+    {
+      "id": "b-nvidia",
+      "name": "NVIDIA",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg",
+      "count": 8
+    },
+    {
+      "id": "b-intel",
+      "name": "Intel",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282020%29.svg",
+      "count": 9
+    },
+    {
+      "id": "b-ubiquiti",
+      "name": "Ubiquiti",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ubiquiti_Networks_Logo.svg/1200px-Ubiquiti_Networks_Logo.svg.png",
+      "count": 7
+    },
+    {
+      "id": "b-tplink",
+      "name": "TP-Link",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/TP-Link_logo.svg/1200px-TP-Link_logo.svg.png",
+      "count": 9
+    },
+    {
+      "id": "b-logitech",
+      "name": "Logitech",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Logitech_logo.svg/1024px-Logitech_logo.svg.png",
+      "count": 14
+    }
+  ],
+  "coupons": [
+    {
+      "code": "TECH2026",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderAmount": 15000,
+      "maxDiscountAmount": 10000,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "usageLimit": 500,
+      "usedCount": 84,
+      "isActive": true,
+      "description": "10% off for technology purchases over KES 15,000"
+    },
+    {
+      "code": "WELCOME5K",
+      "discountType": "fixed",
+      "discountValue": 5000,
+      "minOrderAmount": 50000,
+      "maxDiscountAmount": 5000,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "usageLimit": 200,
+      "usedCount": 39,
+      "isActive": true,
+      "description": "Flat KES 5,000 voucher on orders above KES 50,000"
+    },
+    {
+      "code": "FREESHIP",
+      "discountType": "fixed",
+      "discountValue": 350,
+      "minOrderAmount": 10000,
+      "maxDiscountAmount": 350,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "usageLimit": 1000,
+      "usedCount": 312,
+      "isActive": true,
+      "description": "Free Nairobi Metro courier delivery on any item above KES 10,000"
+    },
+    {
+      "code": "GAMER15",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderAmount": 30000,
+      "maxDiscountAmount": 15000,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "usageLimit": 100,
+      "usedCount": 18,
+      "isActive": true,
+      "description": "15% off on gaming consoles, GPUs, and peripherals"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "Abbey Kibet (Super Admin)",
+      "email": "admin@nexustech.co.ke",
+      "role": "super_admin",
+      "phone": "+254 700 123 456",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "createdAt": "2026-01-10T08:00:00Z"
+    },
+    {
+      "id": "usr-mgr-01",
+      "name": "Faith Njeri (Store Manager)",
+      "email": "faith.njeri@nexustech.co.ke",
+      "role": "store_manager",
+      "phone": "+254 722 111 222",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "createdAt": "2026-01-15T09:30:00Z"
+    },
+    {
+      "id": "usr-cust-01",
+      "name": "Dennis Mwangi",
+      "email": "dennis.mwangi@gmail.com",
+      "role": "customer",
+      "phone": "+254 712 345 678",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "addresses": [
+        {
+          "id": "addr-1",
+          "fullName": "Dennis Mwangi",
+          "phone": "+254 712 345 678",
+          "county": "Nairobi",
+          "town": "Kilimani",
+          "street": "Argwings Kodhek Road",
+          "building": "Silverstone Towers, Apt 4B",
+          "isDefault": true
+        }
+      ],
+      "createdAt": "2026-02-01T14:20:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-iph16pm",
+      "name": "Apple iPhone 16 Pro Max",
+      "slug": "apple-iphone-16-pro-max",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Apple iPhone",
+      "sku": "IPH16PM-256-NAT",
+      "shortSpecs": "256GB | 8GB RAM | 5G | 6.9\" Super Retina XDR OLED | A18 Pro Chip | 48MP Triple Fusion Camera",
+      "price": 215000,
+      "compareAtPrice": 235000,
+      "costPrice": 190000,
+      "rating": 5,
+      "reviewsCount": 2,
+      "stock": 13,
+      "reservedStock": 2,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple East Africa Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "iPhone 16 Pro Max. Forged in grade 5 titanium with a larger 6.9-inch Super Retina XDR display, Camera Control button, 4K 120 fps Dolby Vision recording, and the industry-leading A18 Pro chip engineered for Apple Intelligence.",
+      "variants": [
+        {
+          "id": "v-1",
+          "name": "256GB / Natural Titanium",
+          "sku": "IPH16PM-256-NAT",
+          "price": 215000,
+          "stock": 6,
+          "storage": "256GB",
+          "color": "Natural Titanium"
+        },
+        {
+          "id": "v-2",
+          "name": "512GB / Desert Titanium",
+          "sku": "IPH16PM-512-DES",
+          "price": 245000,
+          "stock": 5,
+          "storage": "512GB",
+          "color": "Desert Titanium"
+        },
+        {
+          "id": "v-3",
+          "name": "1TB / Black Titanium",
+          "sku": "IPH16PM-1TB-BLK",
+          "price": 285000,
+          "stock": 3,
+          "storage": "1TB",
+          "color": "Black Titanium"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Apple",
+          "Model": "iPhone 16 Pro Max",
+          "Operating System": "iOS 18 (Apple Intelligence Ready)",
+          "Chassis": "Grade 5 Titanium with Textured Matte Glass Back"
+        },
+        "Display": {
+          "Screen Size": "6.9 inches",
+          "Technology": "Super Retina XDR OLED ProMotion 120Hz",
+          "Resolution": "2868 x 1320 pixels at 460 ppi",
+          "Peak Brightness": "2000 nits outdoor"
+        },
+        "Performance": {
+          "Chipset": "Apple A18 Pro (3nm)",
+          "CPU": "6-core CPU with 2 performance and 4 efficiency cores",
+          "GPU": "6-core GPU with Hardware-accelerated ray tracing",
+          "Neural Engine": "16-core Neural Engine"
+        },
+        "Camera": {
+          "Main": "48MP Fusion (24mm, f/1.78) with sensor-shift OIS",
+          "Ultra-Wide": "48MP (13mm, f/2.2, 120° FOV)",
+          "Telephoto": "12MP 5x Optical Zoom Tetraprism (120mm, f/2.8)",
+          "Video Recording": "4K Dolby Vision at 120 fps, ProRes Log"
+        },
+        "Battery & Charging": {
+          "Battery Life": "Up to 33 hours video playback",
+          "Charging": "USB-C USB 3 (up to 10Gb/s), 25W MagSafe Wireless Charging"
+        },
+        "Connectivity": {
+          "Cellular": "5G NR Sub-6GHz & mmWave",
+          "Wi-Fi": "Wi-Fi 7 (802.11be)",
+          "Bluetooth": "Bluetooth 5.3",
+          "NFC": "Yes with Reader mode"
+        }
+      }
+    },
+    {
+      "id": "prod-iph16p",
+      "name": "Apple iPhone 16 Pro",
+      "slug": "apple-iphone-16-pro",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Apple iPhone",
+      "sku": "IPH16P-128-BLK",
+      "shortSpecs": "128GB | 8GB RAM | 5G | 6.3\" Super Retina XDR ProMotion | A18 Pro Chip | 48MP Triple Camera",
+      "price": 175000,
+      "compareAtPrice": 190000,
+      "costPrice": 155000,
+      "rating": 4.8,
+      "reviewsCount": 52,
+      "stock": 18,
+      "reservedStock": 1,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "iPhone 16 Pro. Stunning 6.3-inch display, titanium architecture, dedicated Camera Control tactile slider, and pro-level photography with 5x optical tetraprism telephoto.",
+      "variants": [
+        {
+          "id": "v-4",
+          "name": "128GB / Black Titanium",
+          "sku": "IPH16P-128-BLK",
+          "price": 175000,
+          "stock": 8,
+          "storage": "128GB",
+          "color": "Black Titanium"
+        },
+        {
+          "id": "v-5",
+          "name": "256GB / White Titanium",
+          "sku": "IPH16P-256-WHT",
+          "price": 195000,
+          "stock": 6,
+          "storage": "256GB",
+          "color": "White Titanium"
+        },
+        {
+          "id": "v-6",
+          "name": "512GB / Natural Titanium",
+          "sku": "IPH16P-512-NAT",
+          "price": 225000,
+          "stock": 4,
+          "storage": "512GB",
+          "color": "Natural Titanium"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Apple",
+          "Model": "iPhone 16 Pro",
+          "Operating System": "iOS 18"
+        },
+        "Display": {
+          "Screen Size": "6.3 inches",
+          "Technology": "Super Retina XDR OLED 120Hz ProMotion"
+        },
+        "Performance": {
+          "Chipset": "A18 Pro (3nm)",
+          "RAM": "8GB Unified"
+        },
+        "Camera": {
+          "Rear": "48MP Main + 48MP Ultra-wide + 12MP 5x Telephoto",
+          "Front": "12MP TrueDepth"
+        },
+        "Battery": {
+          "Capacity": "Up to 27 hours video playback",
+          "Charging": "USB-C, MagSafe 25W"
+        }
+      }
+    },
+    {
+      "id": "prod-s24ultra",
+      "name": "Samsung Galaxy S24 Ultra 5G",
+      "slug": "samsung-galaxy-s24-ultra-5g",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Samsung Galaxy",
+      "sku": "SAM-S24U-512-GRY",
+      "shortSpecs": "512GB | 12GB RAM | 5G | 6.8\" QHD+ Dynamic AMOLED 2X 120Hz | Snapdragon 8 Gen 3 | 200MP Quad Cam | Embedded S-Pen",
+      "price": 185000,
+      "compareAtPrice": 205000,
+      "costPrice": 162000,
+      "rating": 4.9,
+      "reviewsCount": 74,
+      "stock": 12,
+      "reservedStock": 3,
+      "reorderLevel": 4,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Samsung East Africa Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Galaxy S24 Ultra with Galaxy AI. Titanium frame, flat 6.8-inch display with anti-reflective Corning Gorilla Armor, 200MP quad-telephoto optical zoom system, and built-in S-Pen.",
+      "variants": [
+        {
+          "id": "v-7",
+          "name": "256GB / Titanium Gray",
+          "sku": "SAM-S24U-256-GRY",
+          "price": 168000,
+          "stock": 5,
+          "storage": "256GB",
+          "color": "Titanium Gray"
+        },
+        {
+          "id": "v-8",
+          "name": "512GB / Titanium Black",
+          "sku": "SAM-S24U-512-BLK",
+          "price": 185000,
+          "stock": 4,
+          "storage": "512GB",
+          "color": "Titanium Black"
+        },
+        {
+          "id": "v-9",
+          "name": "512GB / Titanium Violet",
+          "sku": "SAM-S24U-512-VLT",
+          "price": 185000,
+          "stock": 3,
+          "storage": "512GB",
+          "color": "Titanium Violet"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Samsung",
+          "Model": "Galaxy S24 Ultra",
+          "Operating System": "Android 14 with One UI 6.1 (7 Years OS Updates)",
+          "Stylus": "Embedded S Pen with Bluetooth LE"
+        },
+        "Display": {
+          "Screen Size": "6.8 inches",
+          "Technology": "Dynamic LTPO AMOLED 2X, 1-120Hz",
+          "Resolution": "3120 x 1440 (Quad HD+)",
+          "Peak Brightness": "2600 nits"
+        },
+        "Performance": {
+          "Processor": "Qualcomm Snapdragon 8 Gen 3 for Galaxy (4nm)",
+          "RAM": "12GB LPDDR5X",
+          "Storage": "UFS 4.0 High Speed"
+        },
+        "Camera": {
+          "Primary": "200MP f/1.7 OIS",
+          "Periscope Telephoto": "50MP 5x Optical / 10x Optical Quality Zoom",
+          "Telephoto": "10MP 3x Optical",
+          "Ultra-Wide": "12MP Dual Pixel AF",
+          "Front": "12MP Dual Pixel AF"
+        },
+        "Battery": {
+          "Capacity": "5000 mAh",
+          "Charging": "45W Fast Wired, 15W Fast Wireless 2.0, Wireless PowerShare"
+        }
+      }
+    },
+    {
+      "id": "prod-px9pro",
+      "name": "Google Pixel 9 Pro XL 5G",
+      "slug": "google-pixel-9-pro-xl-5g",
+      "brand": "Google",
+      "brandId": "b-google",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Google Pixel",
+      "sku": "GGL-PX9PXL-256-OBS",
+      "shortSpecs": "256GB | 16GB RAM | 5G | 6.8\" Super Actua LTPO OLED 120Hz | Google Tensor G4 | Gemini AI | Pro Triple Camera",
+      "price": 165000,
+      "compareAtPrice": 179000,
+      "costPrice": 145000,
+      "rating": 4.8,
+      "reviewsCount": 39,
+      "stock": 10,
+      "reservedStock": 1,
+      "reorderLevel": 3,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year International Google Warranty + Store Guarantee",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The most powerful Pixel yet with Google Tensor G4, 16GB RAM for on-device Gemini Nano multimodal AI, and an upgraded pro triple camera system with 8K Video Boost.",
+      "variants": [
+        {
+          "id": "v-10",
+          "name": "128GB / Obsidian Black",
+          "sku": "GGL-PX9PXL-128-OBS",
+          "price": 149000,
+          "stock": 4,
+          "storage": "128GB",
+          "color": "Obsidian Black"
+        },
+        {
+          "id": "v-11",
+          "name": "256GB / Porcelain White",
+          "sku": "GGL-PX9PXL-256-POR",
+          "price": 165000,
+          "stock": 6,
+          "storage": "256GB",
+          "color": "Porcelain White"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Google",
+          "Model": "Pixel 9 Pro XL",
+          "OS": "Android 15 (7 Years of Pixel Drops & OS Updates)"
+        },
+        "Performance": {
+          "Processor": "Google Tensor G4 with Titan M2 security coprocessor",
+          "RAM": "16GB RAM"
+        },
+        "Camera": {
+          "Main": "50MP Octa PD f/1.68",
+          "Telephoto": "48MP 5x Optical Zoom (30x Super Res Zoom)",
+          "Ultra-wide": "48MP with Macro Focus",
+          "Front": "42MP Dual PD Selfie"
+        }
+      }
+    },
+    {
+      "id": "prod-xm14ultra",
+      "name": "Xiaomi 14 Ultra 5G (Leica Optics)",
+      "slug": "xiaomi-14-ultra-5g-leica",
+      "brand": "Xiaomi",
+      "brandId": "b-xiaomi",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Xiaomi & Redmi",
+      "sku": "XIA-14U-512-WHT",
+      "shortSpecs": "512GB | 16GB RAM | 5G | 6.73\" 120Hz WQHD+ AMOLED | Snapdragon 8 Gen 3 | Quad 50MP Leica Summilux | 90W HyperCharge",
+      "price": 155000,
+      "compareAtPrice": 170000,
+      "costPrice": 135000,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "stock": 8,
+      "reservedStock": 0,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Xiaomi Kenya Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The pinnacle of mobile imaging co-engineered with Leica. Features a 1-inch Sony LYT-900 sensor with stepless variable aperture f/1.63-f/4.0, dual telephoto lenses, and 90W wired / 80W wireless HyperCharge.",
+      "variants": [
+        {
+          "id": "v-12",
+          "name": "512GB / White Eco Leather",
+          "sku": "XIA-14U-512-WHT",
+          "price": 155000,
+          "stock": 5,
+          "storage": "512GB",
+          "color": "White Leather"
+        },
+        {
+          "id": "v-13",
+          "name": "512GB / Black Eco Leather",
+          "sku": "XIA-14U-512-BLK",
+          "price": 155000,
+          "stock": 3,
+          "storage": "512GB",
+          "color": "Black Leather"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Xiaomi",
+          "Model": "14 Ultra",
+          "OS": "Xiaomi HyperOS based on Android 14"
+        },
+        "Optics": {
+          "Primary Camera": "50MP 1-inch Sony LYT-900 with stepless variable aperture",
+          "Telephoto 1": "50MP 75mm Floating Telephoto (3.2x)",
+          "Telephoto 2": "50MP 120mm Periscope (5x)",
+          "Ultra-wide": "50MP 12mm 122° Leica"
+        },
+        "Battery": {
+          "Capacity": "5000 mAh",
+          "Charging": "90W Wired (100% in 33 mins), 80W Wireless (100% in 46 mins)"
+        }
+      }
+    },
+    {
+      "id": "prod-sam-zfold6",
+      "name": "Samsung Galaxy Z Fold 6 5G",
+      "slug": "samsung-galaxy-z-fold-6-5g",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Samsung Galaxy",
+      "sku": "SAM-ZF6-512-SLV",
+      "shortSpecs": "512GB | 12GB RAM | 5G | 7.6\" Foldable Dynamic AMOLED 2X + 6.3\" Cover Screen | Snapdragon 8 Gen 3 | Galaxy AI",
+      "price": 250000,
+      "compareAtPrice": 275000,
+      "costPrice": 220000,
+      "rating": 4.8,
+      "reviewsCount": 28,
+      "stock": 7,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Samsung Warranty with Free 1-Year Screen Care",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Slimmer, lighter, and more durable foldable with dual screens, enhanced hinge mechanism, S-Pen multitasking, and Galaxy AI live interpreter.",
+      "variants": [
+        {
+          "id": "v-14",
+          "name": "256GB / Silver Shadow",
+          "sku": "SAM-ZF6-256-SLV",
+          "price": 235000,
+          "stock": 4,
+          "storage": "256GB",
+          "color": "Silver Shadow"
+        },
+        {
+          "id": "v-15",
+          "name": "512GB / Navy Blue",
+          "sku": "SAM-ZF6-512-NVY",
+          "price": 250000,
+          "stock": 3,
+          "storage": "512GB",
+          "color": "Navy Blue"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Samsung",
+          "Model": "Galaxy Z Fold 6",
+          "OS": "Android 14, One UI 6.1.1"
+        },
+        "Display": {
+          "Main Screen": "7.6\" Dynamic AMOLED 2X 120Hz (2160 x 1856)",
+          "Cover Screen": "6.3\" Dynamic AMOLED 2X 120Hz (2376 x 968)"
+        }
+      }
+    },
+    {
+      "id": "prod-sam-a55",
+      "name": "Samsung Galaxy A55 5G",
+      "slug": "samsung-galaxy-a55-5g",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Samsung Galaxy",
+      "sku": "SAM-A55-256-ICE",
+      "shortSpecs": "256GB | 8GB RAM | 5G | 6.6\" 120Hz FHD+ Super AMOLED | Metal Frame | 50MP OIS Camera | 5000mAh Battery",
+      "price": 49500,
+      "compareAtPrice": 55000,
+      "costPrice": 42000,
+      "rating": 4.7,
+      "reviewsCount": 89,
+      "stock": 25,
+      "reservedStock": 2,
+      "reorderLevel": 6,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Samsung East Africa Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Premium mid-range beast with brushed aluminum frame, Gorilla Glass Victus+, Knox Vault security, and 4 years of OS upgrades.",
+      "variants": [
+        {
+          "id": "v-16",
+          "name": "128GB / Awesome Iceblue",
+          "sku": "SAM-A55-128-ICE",
+          "price": 44500,
+          "stock": 12,
+          "storage": "128GB",
+          "color": "Awesome Iceblue"
+        },
+        {
+          "id": "v-17",
+          "name": "256GB / Awesome Navy",
+          "sku": "SAM-A55-256-NVY",
+          "price": 49500,
+          "stock": 13,
+          "storage": "256GB",
+          "color": "Awesome Navy"
+        }
+      ],
+      "specs": {
+        "Performance": {
+          "Processor": "Exynos 1480 (4nm) with AMD Xclipse 530 GPU",
+          "RAM": "8GB"
+        },
+        "Battery": {
+          "Capacity": "5000 mAh",
+          "Charging": "25W Super Fast Charging"
+        }
+      }
+    },
+    {
+      "id": "prod-rdn13pro",
+      "name": "Xiaomi Redmi Note 13 Pro+ 5G",
+      "slug": "xiaomi-redmi-note-13-pro-plus-5g",
+      "brand": "Xiaomi",
+      "brandId": "b-xiaomi",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Xiaomi & Redmi",
+      "sku": "XIA-RN13PP-512-PUR",
+      "shortSpecs": "512GB | 12GB RAM | 5G | 6.67\" 1.5K 120Hz Curved AMOLED | 200MP OIS Camera | 120W HyperCharge (100% in 19 mins)",
+      "price": 54000,
+      "compareAtPrice": 62000,
+      "costPrice": 46000,
+      "rating": 4.8,
+      "reviewsCount": 65,
+      "stock": 20,
+      "reservedStock": 1,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Flagship 200MP Samsung ISOCELL HP3 camera with OIS, IP68 water resistance, curved 1.5K AMOLED screen, and blazing 120W charger in box.",
+      "variants": [
+        {
+          "id": "v-18",
+          "name": "256GB / Midnight Black",
+          "sku": "XIA-RN13PP-256-BLK",
+          "price": 47500,
+          "stock": 10,
+          "storage": "256GB",
+          "color": "Midnight Black"
+        },
+        {
+          "id": "v-19",
+          "name": "512GB / Aurora Purple",
+          "sku": "XIA-RN13PP-512-PUR",
+          "price": 54000,
+          "stock": 10,
+          "storage": "512GB",
+          "color": "Aurora Purple"
+        }
+      ],
+      "specs": {
+        "Performance": {
+          "Processor": "MediaTek Dimensity 7200 Ultra (4nm)",
+          "RAM": "12GB"
+        },
+        "Charging": {
+          "Speed": "120W Wired Fast Charging (0-100% in 19 mins)"
+        }
+      }
+    },
+    {
+      "id": "prod-mbp16-m3max",
+      "name": "Apple MacBook Pro 16\" (M3 Max Chip)",
+      "slug": "apple-macbook-pro-16-m3-max",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Apple MacBook",
+      "sku": "MBP16-M3MAX-48G-1TB",
+      "shortSpecs": "Apple M3 Max (16-Core CPU, 40-Core GPU) | 48GB Unified RAM | 1TB SSD | 16.2\" Liquid Retina XDR 120Hz | Space Black",
+      "price": 495000,
+      "compareAtPrice": 535000,
+      "costPrice": 440000,
+      "rating": 5,
+      "reviewsCount": 42,
+      "stock": 6,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The ultimate creative powerhouse for 3D animation, 8K video color grading, and heavy compilation. Features Space Black anodized finish that resists fingerprints, 22 hours of battery life, and 3x Thunderbolt 4 ports.",
+      "variants": [
+        {
+          "id": "v-20",
+          "name": "M3 Max / 48GB RAM / 1TB SSD",
+          "sku": "MBP16-M3MAX-48G-1TB",
+          "price": 495000,
+          "stock": 4,
+          "storage": "1TB SSD",
+          "color": "Space Black"
+        },
+        {
+          "id": "v-21",
+          "name": "M3 Max / 64GB RAM / 2TB SSD",
+          "sku": "MBP16-M3MAX-64G-2TB",
+          "price": 585000,
+          "stock": 2,
+          "storage": "2TB SSD",
+          "color": "Space Black"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Apple",
+          "Model": "MacBook Pro 16",
+          "Color": "Space Black",
+          "Operating System": "macOS Sonoma / Sequoia"
+        },
+        "Processor": {
+          "Chip": "Apple M3 Max",
+          "CPU Cores": "16 cores (12 performance and 4 efficiency)",
+          "GPU Cores": "40 cores with Hardware Ray Tracing",
+          "Memory Bandwidth": "300GB/s"
+        },
+        "Display": {
+          "Screen Size": "16.2 inches",
+          "Display Type": "Liquid Retina XDR Mini-LED, ProMotion 120Hz",
+          "Resolution": "3456 x 2234 at 254 ppi",
+          "XDR Brightness": "1000 nits sustained, 1600 nits peak HDR"
+        },
+        "Storage & RAM": {
+          "Unified Memory": "48GB / 64GB",
+          "Solid State Drive": "1TB / 2TB PCIe Gen 4"
+        },
+        "Audio & Ports": {
+          "Speakers": "High-fidelity 6-speaker sound system with force-cancelling woofers",
+          "Ports": "3x Thunderbolt 4 (USB-C), HDMI 2.1, SDXC card slot, MagSafe 3, 3.5mm headphone jack"
+        }
+      }
+    },
+    {
+      "id": "prod-mba15-m3",
+      "name": "Apple MacBook Air 15\" (M3 Chip)",
+      "slug": "apple-macbook-air-15-m3",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Apple MacBook",
+      "sku": "MBA15-M3-16G-512G-MID",
+      "shortSpecs": "Apple M3 (8-Core CPU, 10-Core GPU) | 16GB Unified RAM | 512GB SSD | 15.3\" Liquid Retina | Midnight Blue",
+      "price": 215000,
+      "compareAtPrice": 235000,
+      "costPrice": 190000,
+      "rating": 4.9,
+      "reviewsCount": 57,
+      "stock": 12,
+      "reservedStock": 1,
+      "reorderLevel": 3,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Impossibly thin 11.5mm aluminum chassis with expansive 15.3-inch Liquid Retina display, dual external monitor support, and up to 18 hours of silent fanless battery life.",
+      "variants": [
+        {
+          "id": "v-22",
+          "name": "16GB RAM / 512GB SSD / Midnight",
+          "sku": "MBA15-M3-16G-512G-MID",
+          "price": 215000,
+          "stock": 7,
+          "storage": "512GB SSD",
+          "color": "Midnight"
+        },
+        {
+          "id": "v-23",
+          "name": "16GB RAM / 512GB SSD / Starlight",
+          "sku": "MBA15-M3-16G-512G-STA",
+          "price": 215000,
+          "stock": 5,
+          "storage": "512GB SSD",
+          "color": "Starlight"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "Chip": "Apple M3 (8-core CPU, 10-core GPU)"
+        },
+        "Memory": {
+          "RAM": "16GB Unified Memory",
+          "Storage": "512GB SSD"
+        },
+        "Display": {
+          "Screen Size": "15.3 inches Liquid Retina (2880 x 1864)"
+        }
+      }
+    },
+    {
+      "id": "prod-dell-xps15",
+      "name": "Dell XPS 15 9530 OLED (Intel Core i9 13th Gen)",
+      "slug": "dell-xps-15-9530-oled",
+      "brand": "Dell",
+      "brandId": "b-dell",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Dell Business & XPS",
+      "sku": "DELL-XPS15-I9-32G-1TB",
+      "shortSpecs": "Intel Core i9-13900H | 32GB DDR5 | 1TB NVMe SSD | NVIDIA RTX 4070 8GB | 15.6\" 3.5K OLED Touchscreen | Windows 11 Pro",
+      "price": 345000,
+      "compareAtPrice": 380000,
+      "costPrice": 305000,
+      "rating": 4.8,
+      "reviewsCount": 29,
+      "stock": 8,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Dell ProSupport Onsite Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "CNC machined aluminum with carbon fiber palm rest, gorgeous 3.5K (3456x2160) InfinityEdge OLED touch panel, NVIDIA RTX 4070 Studio graphics, and studio-grade quad speakers.",
+      "variants": [
+        {
+          "id": "v-24",
+          "name": "Core i7 / 16GB / 1TB / RTX 4060",
+          "sku": "DELL-XPS15-I7-16G-1TB",
+          "price": 275000,
+          "stock": 5,
+          "storage": "1TB SSD",
+          "color": "Platinum Silver"
+        },
+        {
+          "id": "v-25",
+          "name": "Core i9 / 32GB / 1TB / RTX 4070",
+          "sku": "DELL-XPS15-I9-32G-1TB",
+          "price": 345000,
+          "stock": 3,
+          "storage": "1TB SSD",
+          "color": "Platinum Silver"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "13th Gen Intel Core i9-13900H (14 Cores, up to 5.40 GHz Turbo)"
+        },
+        "Graphics": {
+          "GPU": "NVIDIA GeForce RTX 4070 8GB GDDR6 (40W TDP)"
+        },
+        "Display": {
+          "Panel": "15.6\" 3.5K (3456x2160) OLED InfinityEdge Touch 400-nit, 100% DCI-P3"
+        }
+      }
+    },
+    {
+      "id": "prod-dell-lat5420",
+      "name": "Dell Latitude 5420 Business Laptop (Certified Refurbished Grade A)",
+      "slug": "dell-latitude-5420-business-laptop",
+      "brand": "Dell",
+      "brandId": "b-dell",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Refurbished Grade A",
+      "sku": "DELL-LAT5420-I5-16G-512G",
+      "shortSpecs": "Intel Core i5 11th Gen | 16GB RAM | 512GB SSD | 14\" Full HD Anti-Glare | Backlit Keyboard | Windows 11 Pro",
+      "price": 65000,
+      "compareAtPrice": 78000,
+      "costPrice": 48000,
+      "rating": 4.7,
+      "reviewsCount": 114,
+      "stock": 22,
+      "reservedStock": 3,
+      "reorderLevel": 5,
+      "condition": "Certified Refurbished (Grade A+ Pristine)",
+      "warranty": "1 Year Complete Hardware Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Enterprise workhorse built for endurance and speed. Features Intel Core i5 11th Gen quad-core vPro processor, 16GB dual-channel RAM, 512GB NVMe SSD, Thunderbolt 4, and long battery life.",
+      "variants": [
+        {
+          "id": "v-26",
+          "name": "16GB RAM / 512GB SSD",
+          "sku": "DELL-LAT5420-I5-16G-512G",
+          "price": 65000,
+          "stock": 15,
+          "storage": "512GB SSD",
+          "color": "Titan Gray"
+        },
+        {
+          "id": "v-27",
+          "name": "32GB RAM / 1TB SSD",
+          "sku": "DELL-LAT5420-I5-32G-1TB",
+          "price": 78000,
+          "stock": 7,
+          "storage": "1TB SSD",
+          "color": "Titan Gray"
+        }
+      ],
+      "specs": {
+        "General": {
+          "Brand": "Dell",
+          "Model": "Latitude 5420",
+          "Condition": "Certified Refurbished Grade A+"
+        },
+        "Processor": {
+          "CPU": "Intel Core i5-1145G7 (11th Gen, 4 Cores, 8 Threads, up to 4.4 GHz)"
+        },
+        "Memory": {
+          "RAM": "16GB DDR4 3200MHz (Upgradeable to 64GB)"
+        },
+        "Storage": {
+          "Capacity": "512GB M.2 PCIe NVMe Class 35 SSD"
+        },
+        "Display": {
+          "Screen": "14.0\" FHD (1920x1080) Non-Touch, Anti-Glare, 250 nits"
+        },
+        "Ports": {
+          "Connectivity": "2x Thunderbolt 4 with Power Delivery & DisplayPort, 2x USB 3.2 Gen 1, HDMI 2.0, RJ-45 Gigabit Ethernet, MicroSD Card Reader"
+        }
+      }
+    },
+    {
+      "id": "prod-hp-spectre14",
+      "name": "HP Spectre x360 14 OLED 2-in-1 (Intel Core Ultra 7)",
+      "slug": "hp-spectre-x360-14-oled-2-in-1",
+      "brand": "HP",
+      "brandId": "b-hp",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "HP Spectre & Envy",
+      "sku": "HP-SPEC14-U7-32G-1TB",
+      "shortSpecs": "Intel Core Ultra 7 155H (16 Cores, NPU AI) | 32GB LPDDR5X | 1TB PCIe 4.0 SSD | 14\" 2.8K 120Hz OLED Touch | HP Rechargeable Pen",
+      "price": 245000,
+      "compareAtPrice": 268000,
+      "costPrice": 215000,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "stock": 9,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years HP Global Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Gem-cut CNC aluminum 2-in-1 convertible with variable 120Hz 2.8K OLED display, Poly Studio tuned quad speakers, 9MP AI wide-angle webcam, and Intel AI Boost NPU.",
+      "variants": [
+        {
+          "id": "v-28",
+          "name": "Core Ultra 7 / 32GB / 1TB / Nightfall Black",
+          "sku": "HP-SPEC14-U7-32G-1TB",
+          "price": 245000,
+          "stock": 6,
+          "storage": "1TB SSD",
+          "color": "Nightfall Black"
+        },
+        {
+          "id": "v-29",
+          "name": "Core Ultra 7 / 16GB / 512GB / Sahara Silver",
+          "sku": "HP-SPEC14-U7-16G-512G",
+          "price": 215000,
+          "stock": 3,
+          "storage": "512GB SSD",
+          "color": "Sahara Silver"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "Intel Core Ultra 7 155H (16 Cores, 22 Threads, up to 4.8 GHz) + Dedicated NPU"
+        },
+        "Display": {
+          "Screen": "14.0\" 2.8K (2880 x 1800) OLED 120Hz 0.2ms Touch, IMAX Enhanced"
+        }
+      }
+    },
+    {
+      "id": "prod-len-x1c12",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+      "slug": "lenovo-thinkpad-x1-carbon-gen-12",
+      "brand": "Lenovo",
+      "brandId": "b-lenovo",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Lenovo ThinkPad",
+      "sku": "LEN-X1C12-U7-32G-1TB",
+      "shortSpecs": "Intel Core Ultra 7 165U vPro | 32GB LPDDR5X | 1TB NVMe SSD | 14\" 2.8K OLED 120Hz Anti-Glare | 1.09 kg Ultra-Lightweight",
+      "price": 285000,
+      "compareAtPrice": 310000,
+      "costPrice": 250000,
+      "rating": 4.9,
+      "reviewsCount": 33,
+      "stock": 7,
+      "reservedStock": 0,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "3 Years Lenovo Premier Support Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The gold standard of enterprise executive laptops. Weighing just 1.09 kg with aerospace-grade carbon fiber lid, haptic glass TrackPoint touchpad, MIL-STD 810H ruggedness, and 57Wh battery.",
+      "variants": [
+        {
+          "id": "v-30",
+          "name": "32GB RAM / 1TB SSD / Black Carbon",
+          "sku": "LEN-X1C12-U7-32G-1TB",
+          "price": 285000,
+          "stock": 7,
+          "storage": "1TB SSD",
+          "color": "Deep Black Carbon"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "Intel Core Ultra 7 165U vPro Enterprise"
+        },
+        "Weight": {
+          "Chassis": "1.09 kg (2.42 lbs)"
+        }
+      }
+    },
+    {
+      "id": "prod-rog-g16",
+      "name": "ASUS ROG Zephyrus G16 (2024 OLED Gaming Laptop)",
+      "slug": "asus-rog-zephyrus-g16-oled",
+      "brand": "ASUS",
+      "brandId": "b-asus",
+      "category": "Laptops",
+      "categoryId": "cat-laptops",
+      "subcategory": "Gaming Laptops",
+      "sku": "ASUS-G16-U9-32G-RTX4080",
+      "shortSpecs": "Intel Core Ultra 9 185H | 32GB LPDDR5X | 2TB PCIe 4.0 SSD | NVIDIA RTX 4080 12GB | 16\" 2.5K 240Hz ROG Nebula OLED | Eclipse Gray",
+      "price": 395000,
+      "compareAtPrice": 430000,
+      "costPrice": 350000,
+      "rating": 5,
+      "reviewsCount": 27,
+      "stock": 5,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years ASUS Perfect Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Ultra-sleek all-aluminum CNC unibody housing a blisteringly fast RTX 4080 GPU, 240Hz G-SYNC OLED display with 0.2ms response time, Slash Lighting customizable lid LED array, and 6-speaker Dolby Atmos system.",
+      "variants": [
+        {
+          "id": "v-31",
+          "name": "Core Ultra 9 / 32GB / 2TB / RTX 4080",
+          "sku": "ASUS-G16-U9-32G-RTX4080",
+          "price": 395000,
+          "stock": 3,
+          "storage": "2TB SSD",
+          "color": "Eclipse Gray"
+        },
+        {
+          "id": "v-32",
+          "name": "Core Ultra 7 / 16GB / 1TB / RTX 4070",
+          "sku": "ASUS-G16-U7-16G-RTX4070",
+          "price": 295000,
+          "stock": 2,
+          "storage": "1TB SSD",
+          "color": "Platinum White"
+        }
+      ],
+      "specs": {
+        "Graphics": {
+          "GPU": "NVIDIA GeForce RTX 4080 Laptop GPU (12GB GDDR6, 115W TGP)"
+        },
+        "Display": {
+          "Screen": "16.0\" 2.5K (2560 x 1600) ROG Nebula OLED, 240Hz, 0.2ms, G-SYNC, 100% DCI-P3"
+        }
+      }
+    },
+    {
+      "id": "prod-mac-studio",
+      "name": "Apple Mac Studio (M2 Max Chip)",
+      "slug": "apple-mac-studio-m2-max",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Desktop Computers",
+      "categoryId": "cat-computers",
+      "subcategory": "Apple Mac Studio & Mini",
+      "sku": "MAC-STUDIO-M2MAX-32G-512G",
+      "shortSpecs": "Apple M2 Max (12-Core CPU, 30-Core GPU) | 32GB Unified Memory | 512GB SSD | 4x Thunderbolt 4 | Supports up to 5 Displays",
+      "price": 295000,
+      "compareAtPrice": 320000,
+      "costPrice": 260000,
+      "rating": 4.9,
+      "reviewsCount": 24,
+      "stock": 8,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Compact desktop powerhouse designed for studio desks. Delivers phenomenal performance across Final Cut Pro, Logic Pro, Cinema 4D, and Xcode with ultra-quiet thermal architecture.",
+      "variants": [
+        {
+          "id": "v-33",
+          "name": "M2 Max / 32GB / 512GB SSD",
+          "sku": "MAC-STUDIO-M2MAX-32G-512G",
+          "price": 295000,
+          "stock": 5,
+          "storage": "512GB SSD",
+          "color": "Silver"
+        },
+        {
+          "id": "v-34",
+          "name": "M2 Max / 64GB / 1TB SSD",
+          "sku": "MAC-STUDIO-M2MAX-64G-1TB",
+          "price": 375000,
+          "stock": 3,
+          "storage": "1TB SSD",
+          "color": "Silver"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "Apple M2 Max 12-Core",
+          "GPU": "30-Core GPU"
+        },
+        "Connectivity": {
+          "Ports": "4x Thunderbolt 4, 2x USB-A (5Gb/s), HDMI 2.1, 10Gb Ethernet, SDXC card slot, 3.5mm jack"
+        }
+      }
+    },
+    {
+      "id": "prod-dell-opti7010",
+      "name": "Dell OptiPlex 7010 Micro Desktop PC",
+      "slug": "dell-optiplex-7010-micro-desktop",
+      "brand": "Dell",
+      "brandId": "b-dell",
+      "category": "Desktop Computers",
+      "categoryId": "cat-computers",
+      "subcategory": "Business Desktops",
+      "sku": "DELL-OPTI7010-I7-16G-512G",
+      "shortSpecs": "Intel Core i7-13700T (16 Cores) | 16GB DDR5 | 512GB NVMe SSD | Intel UHD 770 | WiFi 6E + BT 5.3 | Windows 11 Pro",
+      "price": 98000,
+      "compareAtPrice": 115000,
+      "costPrice": 82000,
+      "rating": 4.8,
+      "reviewsCount": 45,
+      "stock": 16,
+      "reservedStock": 2,
+      "reorderLevel": 4,
+      "condition": "Brand New Sealed",
+      "warranty": "3 Years Dell ProSupport Next Business Day Onsite",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Ultra-compact form factor (1 liter chassis) engineered for corporate offices, hospitals, financial institutions, and point-of-sale setups. Delivers full desktop performance with minimal footprint.",
+      "variants": [
+        {
+          "id": "v-35",
+          "name": "Core i5 / 16GB / 512GB SSD",
+          "sku": "DELL-OPTI7010-I5-16G-512G",
+          "price": 82000,
+          "stock": 9,
+          "storage": "512GB SSD",
+          "color": "Black"
+        },
+        {
+          "id": "v-36",
+          "name": "Core i7 / 16GB / 512GB SSD",
+          "sku": "DELL-OPTI7010-I7-16G-512G",
+          "price": 98000,
+          "stock": 7,
+          "storage": "512GB SSD",
+          "color": "Black"
+        }
+      ],
+      "specs": {
+        "Form Factor": {
+          "Size": "Micro (182 x 36 x 178 mm, 1.1 kg)"
+        },
+        "Processor": {
+          "CPU": "Intel Core i7-13700T (16 Cores, 24 Threads, up to 4.9 GHz)"
+        }
+      }
+    },
+    {
+      "id": "prod-custom-workstation",
+      "name": "Nexus Elite AI & Creator Custom Workstation R16",
+      "slug": "nexus-elite-ai-creator-workstation-r16",
+      "brand": "Custom Builds",
+      "brandId": "b-asus",
+      "category": "Desktop Computers",
+      "categoryId": "cat-computers",
+      "subcategory": "Custom Creator Workstations",
+      "sku": "NEX-WRK-I9-64G-RTX4090",
+      "shortSpecs": "Intel Core i9-14900K (24 Cores / 6.0 GHz) | 64GB DDR5 6000MHz RGB | 2TB Gen4 NVMe | NVIDIA RTX 4090 24GB | 360mm AIO Liquid Cooling | 1000W 80+ Gold PSU",
+      "price": 685000,
+      "compareAtPrice": 740000,
+      "costPrice": 610000,
+      "rating": 5,
+      "reviewsCount": 19,
+      "stock": 4,
+      "reservedStock": 1,
+      "reorderLevel": 1,
+      "condition": "Custom Hand-Built & Benchmarked (Ready to Run)",
+      "warranty": "3 Years Comprehensive Hardware Warranty with Free Maintenance",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Built for local LLM inference, Stable Diffusion, Unreal Engine 5, 8K video rendering, and competitive gaming. Features Lian Li O11 Dynamic EVO chassis, custom cable management, and stress-tested stability.",
+      "variants": [
+        {
+          "id": "v-37",
+          "name": "Core i9-14900K / 64GB RAM / RTX 4090 24GB",
+          "sku": "NEX-WRK-I9-64G-RTX4090",
+          "price": 685000,
+          "stock": 3,
+          "storage": "2TB NVMe",
+          "color": "Anodized Black RGB"
+        },
+        {
+          "id": "v-38",
+          "name": "Core i9-14900K / 128GB RAM / RTX 4090 24GB",
+          "sku": "NEX-WRK-I9-128G-RTX4090",
+          "price": 760000,
+          "stock": 1,
+          "storage": "4TB NVMe",
+          "color": "Snow White RGB"
+        }
+      ],
+      "specs": {
+        "CPU": {
+          "Processor": "Intel Core i9-14900K (24 Cores, 32 Threads, 6.0 GHz Thermal Velocity Boost)"
+        },
+        "GPU": {
+          "Graphics": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X"
+        },
+        "Motherboard": {
+          "Chipset": "ASUS ROG Maximus Z790 Hero WiFi 7"
+        }
+      }
+    },
+    {
+      "id": "prod-ipad-pro13-m4",
+      "name": "Apple iPad Pro 13\" (M4 Chip OLED)",
+      "slug": "apple-ipad-pro-13-m4-oled",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Tablets",
+      "categoryId": "cat-tablets",
+      "subcategory": "Apple iPad Pro & Air",
+      "sku": "IPAD-P13-M4-256G-WIFI-BLK",
+      "shortSpecs": "Apple M4 Chip (9-Core CPU, 10-Core GPU) | 256GB | Ultra Retina XDR Tandem OLED Display | 5.1mm Ultra-Thin | Space Black",
+      "price": 215000,
+      "compareAtPrice": 235000,
+      "costPrice": 190000,
+      "rating": 4.9,
+      "reviewsCount": 36,
+      "stock": 9,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The thinnest Apple product ever made at just 5.1mm. Features groundbreaking Tandem OLED display with 1000 nits full-screen brightness, M4 chip with next-gen Neural Engine, and support for Apple Pencil Pro.",
+      "variants": [
+        {
+          "id": "v-39",
+          "name": "256GB / Wi-Fi / Space Black",
+          "sku": "IPAD-P13-M4-256G-WIFI-BLK",
+          "price": 215000,
+          "stock": 5,
+          "storage": "256GB",
+          "color": "Space Black"
+        },
+        {
+          "id": "v-40",
+          "name": "512GB / Wi-Fi + Cellular 5G / Silver",
+          "sku": "IPAD-P13-M4-512G-5G-SLV",
+          "price": 265000,
+          "stock": 4,
+          "storage": "512GB",
+          "color": "Silver"
+        }
+      ],
+      "specs": {
+        "Display": {
+          "Technology": "Tandem OLED Ultra Retina XDR, ProMotion 120Hz (2752 x 2064)",
+          "Peak Brightness": "1600 nits HDR"
+        },
+        "Performance": {
+          "Chip": "Apple M4 Chip with 38 TOPS Neural Engine"
+        }
+      }
+    },
+    {
+      "id": "prod-tab-s9ultra",
+      "name": "Samsung Galaxy Tab S9 Ultra 5G (14.6\" Dynamic AMOLED 2X)",
+      "slug": "samsung-galaxy-tab-s9-ultra-5g",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Tablets",
+      "categoryId": "cat-tablets",
+      "subcategory": "Samsung Galaxy Tab",
+      "sku": "SAM-TAB-S9U-512-GRF",
+      "shortSpecs": "512GB | 12GB RAM | 5G Cellular + WiFi 6E | 14.6\" 120Hz AMOLED | Snapdragon 8 Gen 2 | IP68 Water Resistant | S-Pen Included",
+      "price": 175000,
+      "compareAtPrice": 195000,
+      "costPrice": 152000,
+      "rating": 4.8,
+      "reviewsCount": 31,
+      "stock": 7,
+      "reservedStock": 0,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Samsung East Africa Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Massive 14.6-inch flagship canvas with Samsung DeX desktop mode, IP68 water & dust resistance for both tablet and S-Pen, quad AKG speakers, and dual front wide cameras.",
+      "variants": [
+        {
+          "id": "v-41",
+          "name": "256GB / 5G / Graphite",
+          "sku": "SAM-TAB-S9U-256-GRF",
+          "price": 155000,
+          "stock": 4,
+          "storage": "256GB",
+          "color": "Graphite"
+        },
+        {
+          "id": "v-42",
+          "name": "512GB / 5G / Graphite",
+          "sku": "SAM-TAB-S9U-512-GRF",
+          "price": 175000,
+          "stock": 3,
+          "storage": "512GB",
+          "color": "Graphite"
+        }
+      ],
+      "specs": {
+        "Display": {
+          "Screen": "14.6\" Dynamic AMOLED 2X, 120Hz, HDR10+ (2960 x 1848)"
+        },
+        "Durability": {
+          "Protection": "Armor Aluminum Casing, IP68 Submersible"
+        }
+      }
+    },
+    {
+      "id": "prod-sony-xm5",
+      "name": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+      "slug": "sony-wh-1000xm5-wireless-headphones",
+      "brand": "Sony",
+      "brandId": "b-sony",
+      "category": "Accessories",
+      "categoryId": "cat-accessories",
+      "subcategory": "Headphones & Earbuds",
+      "sku": "SNY-WH1000XM5-BLK",
+      "shortSpecs": "Industry Leading Active Noise Cancelling | 8 Mics + Auto NC Optimizer | 30h Battery | LDAC Hi-Res Audio | Multipoint Connection",
+      "price": 46000,
+      "compareAtPrice": 52000,
+      "costPrice": 38000,
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "stock": 28,
+      "reservedStock": 3,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Sony Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Engineered with two processors and 8 microphones for unparalleled noise cancellation. 30-hour battery life with fast 3-min quick charge for 3 hours playback, crystal-clear hands-free calling with AI noise reduction.",
+      "variants": [
+        {
+          "id": "v-43",
+          "name": "Black",
+          "sku": "SNY-WH1000XM5-BLK",
+          "price": 46000,
+          "stock": 16,
+          "color": "Black"
+        },
+        {
+          "id": "v-44",
+          "name": "Silver",
+          "sku": "SNY-WH1000XM5-SLV",
+          "price": 46000,
+          "stock": 8,
+          "color": "Silver"
+        },
+        {
+          "id": "v-45",
+          "name": "Midnight Blue",
+          "sku": "SNY-WH1000XM5-BLU",
+          "price": 47000,
+          "stock": 4,
+          "color": "Midnight Blue"
+        }
+      ],
+      "specs": {
+        "Audio": {
+          "Driver Unit": "30mm Carbon Fiber Composite",
+          "Frequency Response": "4 Hz - 40,000 Hz (Hi-Res LDAC)"
+        },
+        "Battery": {
+          "Playtime": "Up to 30 hours with ANC On, 40 hours with ANC Off",
+          "Charging": "USB-C Fast Charging"
+        }
+      }
+    },
+    {
+      "id": "prod-airpods-pro2",
+      "name": "Apple AirPods Pro 2 (USB-C MagSafe Case)",
+      "slug": "apple-airpods-pro-2-usb-c",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Accessories",
+      "categoryId": "cat-accessories",
+      "subcategory": "Headphones & Earbuds",
+      "sku": "APP-AIRPODS-PRO2-USBC",
+      "shortSpecs": "Apple H2 Chip | 2x Active Noise Cancellation | Adaptive Audio & Transparency | Lossless Audio | IP54 Dust & Sweat Resistant",
+      "price": 36500,
+      "compareAtPrice": 42000,
+      "costPrice": 29500,
+      "rating": 4.9,
+      "reviewsCount": 188,
+      "stock": 35,
+      "reservedStock": 4,
+      "reorderLevel": 8,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Apple Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Upgraded with USB-C MagSafe charging case with speaker for Precision Finding, Touch volume control slider, Personalized Spatial Audio with dynamic head tracking, and hearing health features in iOS 18.",
+      "variants": [
+        {
+          "id": "v-46",
+          "name": "White / USB-C Case",
+          "sku": "APP-AIRPODS-PRO2-USBC",
+          "price": 36500,
+          "stock": 35,
+          "color": "White"
+        }
+      ],
+      "specs": {
+        "Chip": {
+          "Processor": "Apple H2 in earbuds, Apple U1 in charging case"
+        },
+        "Battery": {
+          "Playtime": "6 hours on single charge (30 hours with case)"
+        }
+      }
+    },
+    {
+      "id": "prod-logi-mx3s",
+      "name": "Logitech MX Master 3S Wireless Performance Mouse",
+      "slug": "logitech-mx-master-3s-mouse",
+      "brand": "Logitech",
+      "brandId": "b-logitech",
+      "category": "Accessories",
+      "categoryId": "cat-accessories",
+      "subcategory": "Keyboards & Mice",
+      "sku": "LOGI-MX3S-GRF",
+      "shortSpecs": "8000 DPI Any-Surface Tracking (Even on Glass) | Quiet Click Switches | MagSpeed Electromagnetic Scroll | Logi Bolt + Bluetooth",
+      "price": 15500,
+      "compareAtPrice": 18000,
+      "costPrice": 11500,
+      "rating": 4.9,
+      "reviewsCount": 96,
+      "stock": 24,
+      "reservedStock": 2,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Logitech Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The world's most iconic productivity mouse. Features Quiet Clicks reducing 90% click noise, 8K optical sensor tracking on glass, MagSpeed scrolling up to 1,000 lines per second, and multi-device Flow switching.",
+      "variants": [
+        {
+          "id": "v-47",
+          "name": "Graphite Black",
+          "sku": "LOGI-MX3S-GRF",
+          "price": 15500,
+          "stock": 16,
+          "color": "Graphite"
+        },
+        {
+          "id": "v-48",
+          "name": "Pale Grey",
+          "sku": "LOGI-MX3S-GRY",
+          "price": 15500,
+          "stock": 8,
+          "color": "Pale Grey"
+        }
+      ],
+      "specs": {
+        "Sensor": {
+          "DPI Range": "200 - 8000 DPI (Configurable in 50 DPI increments)"
+        },
+        "Battery": {
+          "Life": "Up to 70 days on full charge, 3 hours use from 1 min quick charge"
+        }
+      }
+    },
+    {
+      "id": "prod-anker-prime100w",
+      "name": "Anker Prime 100W GaN 3-Port Fast Wall Charger",
+      "slug": "anker-prime-100w-gan-charger",
+      "brand": "Anker",
+      "brandId": "b-anker",
+      "category": "Accessories",
+      "categoryId": "cat-accessories",
+      "subcategory": "Chargers & Power Banks",
+      "sku": "ANK-PRIME-100W-BLK",
+      "shortSpecs": "100W Max Output | 2x USB-C + 1x USB-A | GaNPrime Tech | ActiveShield 2.0 Safety | Powers MacBook Pro + iPhone + Watch Simultaneously",
+      "price": 9800,
+      "compareAtPrice": 12000,
+      "costPrice": 7200,
+      "rating": 4.9,
+      "reviewsCount": 78,
+      "stock": 40,
+      "reservedStock": 3,
+      "reorderLevel": 8,
+      "condition": "Brand New Sealed",
+      "warranty": "18 Months Anker Official Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "43% smaller than standard 96W Apple chargers. Intelligently balances power output between 3 devices with ActiveShield 2.0 real-time temperature monitoring 3 million times per day.",
+      "variants": [
+        {
+          "id": "v-49",
+          "name": "Black Anodized",
+          "sku": "ANK-PRIME-100W-BLK",
+          "price": 9800,
+          "stock": 40,
+          "color": "Black"
+        }
+      ],
+      "specs": {
+        "Output": {
+          "Single Port Max": "100W Power Delivery 3.0 via USB-C1 / C2",
+          "Total Power": "100W Dynamic Distribution"
+        }
+      }
+    },
+    {
+      "id": "prod-anker-737pb",
+      "name": "Anker 737 Power Bank (PowerCore 24,000mAh 140W)",
+      "slug": "anker-737-power-bank-24k-140w",
+      "brand": "Anker",
+      "brandId": "b-anker",
+      "category": "Accessories",
+      "categoryId": "cat-accessories",
+      "subcategory": "Chargers & Power Banks",
+      "sku": "ANK-737-PB-24K",
+      "shortSpecs": "24,000mAh Capacity | 140W Two-Way Fast Charging | Smart Digital Display | Charges MacBook Pro to 50% in 28 Mins | Airline Approved",
+      "price": 18500,
+      "compareAtPrice": 22000,
+      "costPrice": 14000,
+      "rating": 5,
+      "reviewsCount": 62,
+      "stock": 20,
+      "reservedStock": 1,
+      "reorderLevel": 4,
+      "condition": "Brand New Sealed",
+      "warranty": "18 Months Anker Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1609592424376-79ef5e9e034e?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1609592424376-79ef5e9e034e?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Equipped with Power Delivery 3.1 and bi-directional technology to quickly recharge the power bank or get a 140W ultra-powerful charge for demanding laptops. Smart display shows remaining time and wattage.",
+      "variants": [
+        {
+          "id": "v-50",
+          "name": "24,000mAh / 140W",
+          "sku": "ANK-737-PB-24K",
+          "price": 18500,
+          "stock": 20,
+          "color": "Space Gray"
+        }
+      ],
+      "specs": {
+        "Capacity": {
+          "Total": "24,000mAh (86.4Wh)",
+          "Max Input / Output": "140W via USB-C"
+        }
+      }
+    },
+    {
+      "id": "prod-gpu-rtx4090",
+      "name": "ASUS ROG Strix GeForce RTX 4090 OC Edition 24GB",
+      "slug": "asus-rog-strix-geforce-rtx-4090-24gb",
+      "brand": "NVIDIA",
+      "brandId": "b-nvidia",
+      "category": "Computer Components",
+      "categoryId": "cat-components",
+      "subcategory": "Graphics Cards (GPU)",
+      "sku": "GPU-RTX4090-ROG-24G",
+      "shortSpecs": "24GB GDDR6X | Ada Lovelace Architecture | DLSS 3.5 Frame Gen | 3.5-Slot Diecast Heatsink | 16,384 CUDA Cores | PCIe 4.0",
+      "price": 385000,
+      "compareAtPrice": 420000,
+      "costPrice": 340000,
+      "rating": 5,
+      "reviewsCount": 18,
+      "stock": 5,
+      "reservedStock": 1,
+      "reorderLevel": 1,
+      "condition": "Brand New Sealed",
+      "warranty": "3 Years Official ASUS Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The undisputed king of consumer GPUs. Massive vapor chamber and patented axial-tech fans spinning on dual-ball bearings for 23% more airflow. Built for extreme 4K gaming, AI training, and 3D rendering.",
+      "variants": [
+        {
+          "id": "v-51",
+          "name": "24GB OC Edition",
+          "sku": "GPU-RTX4090-ROG-24G",
+          "price": 385000,
+          "stock": 5,
+          "color": "ROG Cyberpunk RGB"
+        }
+      ],
+      "specs": {
+        "Engine": {
+          "CUDA Cores": "16384",
+          "Boost Clock": "2640 MHz (OC Mode)"
+        },
+        "Memory": {
+          "Size": "24GB GDDR6X",
+          "Speed": "21 Gbps",
+          "Bus Width": "384-bit"
+        }
+      }
+    },
+    {
+      "id": "prod-cpu-i914900k",
+      "name": "Intel Core i9-14900K Desktop Processor (24 Cores / 32 Threads)",
+      "slug": "intel-core-i9-14900k-processor",
+      "brand": "Intel",
+      "brandId": "b-intel",
+      "category": "Computer Components",
+      "categoryId": "cat-components",
+      "subcategory": "Processors (CPU)",
+      "sku": "CPU-INTEL-I9-14900K",
+      "shortSpecs": "24 Cores (8P + 16E) | 32 Threads | Up to 6.0 GHz Max Turbo | LGA1700 Socket | Intel UHD Graphics 770 | Unlocked Overclocking",
+      "price": 88000,
+      "compareAtPrice": 98000,
+      "costPrice": 76000,
+      "rating": 4.8,
+      "reviewsCount": 35,
+      "stock": 14,
+      "reservedStock": 2,
+      "reorderLevel": 3,
+      "condition": "Brand New Sealed Box",
+      "warranty": "3 Years Intel Official Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Pushes gaming and multitasking boundaries with 6.0 GHz out-of-the-box speeds, PCIe 5.0 support, and DDR5 5600MHz native memory support on Intel 600 and 700 series motherboards.",
+      "variants": [
+        {
+          "id": "v-52",
+          "name": "i9-14900K Boxed",
+          "sku": "CPU-INTEL-I9-14900K",
+          "price": 88000,
+          "stock": 14,
+          "color": "Blue Crystal Box"
+        }
+      ],
+      "specs": {
+        "Cores & Speed": {
+          "Performance Cores": "8 (Base 3.2 GHz / Boost 5.6 GHz)",
+          "Efficiency Cores": "16 (Base 2.4 GHz / Boost 4.4 GHz)",
+          "Thermal Velocity Boost": "6.0 GHz"
+        },
+        "Cache": {
+          "Intel Smart Cache": "36 MB L3",
+          "Total L2": "32 MB"
+        }
+      }
+    },
+    {
+      "id": "prod-ssd-990pro2tb",
+      "name": "Samsung 990 PRO 2TB PCIe 4.0 NVMe M.2 SSD (with Heatsink)",
+      "slug": "samsung-990-pro-2tb-heatsink-ssd",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Computer Components",
+      "categoryId": "cat-components",
+      "subcategory": "NVMe & SATA SSDs",
+      "sku": "SSD-SAM-990PRO-2TB-HS",
+      "shortSpecs": "2TB Storage | Up to 7,450 MB/s Read & 6,900 MB/s Write | Custom Slim Heatsink (PS5 & PC Compatible) | Samsung Pascal Controller",
+      "price": 32000,
+      "compareAtPrice": 38000,
+      "costPrice": 26000,
+      "rating": 5,
+      "reviewsCount": 84,
+      "stock": 25,
+      "reservedStock": 2,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "5 Years Limited Warranty or 1200 TBW",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Max out PCIe 4.0 bandwidth with industry-leading 1,400K / 1,550K IOPS random read/write performance. Integrated slim heatsink keeps temps cool in PlayStation 5 and high-end gaming laptops/PCs.",
+      "variants": [
+        {
+          "id": "v-53",
+          "name": "1TB with Heatsink",
+          "sku": "SSD-SAM-990PRO-1TB-HS",
+          "price": 19500,
+          "stock": 12,
+          "storage": "1TB",
+          "color": "Matte Black Heatsink"
+        },
+        {
+          "id": "v-54",
+          "name": "2TB with Heatsink",
+          "sku": "SSD-SAM-990PRO-2TB-HS",
+          "price": 32000,
+          "stock": 13,
+          "storage": "2TB",
+          "color": "Matte Black Heatsink"
+        }
+      ],
+      "specs": {
+        "Speeds": {
+          "Sequential Read": "Up to 7,450 MB/s",
+          "Sequential Write": "Up to 6,900 MB/s"
+        }
+      }
+    },
+    {
+      "id": "prod-ubnt-udmse",
+      "name": "Ubiquiti UniFi Dream Machine Special Edition (UDM-SE)",
+      "slug": "ubiquiti-unifi-dream-machine-special-edition",
+      "brand": "Ubiquiti",
+      "brandId": "b-ubiquiti",
+      "category": "Networking",
+      "categoryId": "cat-networking",
+      "subcategory": "Enterprise Access Points",
+      "sku": "UBNT-UDM-SE-10G",
+      "shortSpecs": "Enterprise 10G Gateway & Network Console | 8-Port Gigabit PoE Switch (2x PoE+) | Dual WAN (10G SFP+ & 2.5GbE) | 128GB SSD Integrated",
+      "price": 95000,
+      "compareAtPrice": 108000,
+      "costPrice": 80000,
+      "rating": 5,
+      "reviewsCount": 22,
+      "stock": 6,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Official Ubiquiti Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "All-in-one enterprise network server with integrated 3.5 Gbps IPS/IDS threat protection, runs all UniFi OS apps (Network, Protect, Access, Talk), built-in PoE power, and 3.5\" HDD bay for NVR security recording.",
+      "variants": [
+        {
+          "id": "v-55",
+          "name": "Standard 10G SE Edition",
+          "sku": "UBNT-UDM-SE-10G",
+          "price": 95000,
+          "stock": 6,
+          "color": "Silver Anodized"
+        }
+      ],
+      "specs": {
+        "Ports": {
+          "WAN": "1x 10G SFP+, 1x 2.5GbE RJ45",
+          "LAN": "1x 10G SFP+, 8x GbE RJ45 (6x PoE 802.3af, 2x PoE+ 802.3at)"
+        },
+        "Performance": {
+          "IDS/IPS Throughput": "3.5 Gbps Real-Time Deep Packet Inspection"
+        }
+      }
+    },
+    {
+      "id": "prod-tplink-axe300",
+      "name": "TP-Link Archer AXE300 Quad-Band WiFi 6E Router",
+      "slug": "tp-link-archer-axe300-quad-band-router",
+      "brand": "TP-Link",
+      "brandId": "b-tplink",
+      "category": "Networking",
+      "categoryId": "cat-networking",
+      "subcategory": "WiFi 6/7 Routers",
+      "sku": "TPL-AXE300-16G",
+      "shortSpecs": "AXE16000 Quad-Band (6GHz + dual 5GHz + 2.4GHz) | Dual 10G Ports (10G SFP+/RJ45 + 10GbE) | 2.0 GHz Quad-Core CPU | 8 High-Gain Antennas",
+      "price": 78000,
+      "compareAtPrice": 89000,
+      "costPrice": 65000,
+      "rating": 4.8,
+      "reviewsCount": 19,
+      "stock": 9,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "3 Years Official TP-Link Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": false,
+      "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The fastest consumer router available with unmatched 16 Gbps wireless speeds, dual 10G ports for 10Gbps fiber internet connections, and VPN client/server support.",
+      "variants": [
+        {
+          "id": "v-56",
+          "name": "AXE16000 Quad-Band",
+          "sku": "TPL-AXE300-16G",
+          "price": 78000,
+          "stock": 9,
+          "color": "Futuristic Black"
+        }
+      ],
+      "specs": {
+        "Speed": {
+          "6 GHz": "4804 Mbps",
+          "5 GHz-1": "4804 Mbps",
+          "5 GHz-2": "4804 Mbps",
+          "2.4 GHz": "1148 Mbps"
+        }
+      }
+    },
+    {
+      "id": "prod-ps5-slim",
+      "name": "Sony PlayStation 5 Slim Disc Edition 1TB",
+      "slug": "sony-playstation-5-slim-disc-edition-1tb",
+      "brand": "Sony",
+      "brandId": "b-sony",
+      "category": "Gaming",
+      "categoryId": "cat-gaming",
+      "subcategory": "Consoles (PS5, Xbox, Switch)",
+      "sku": "SNY-PS5-SLIM-DISC-1TB",
+      "shortSpecs": "1TB Ultra-High Speed SSD | 4K 120Hz & 8K HDR Support | Ray Tracing | DualSense Wireless Controller with Haptic Feedback | Removable Ultra HD Blu-ray Drive",
+      "price": 82000,
+      "compareAtPrice": 92000,
+      "costPrice": 70000,
+      "rating": 5,
+      "reviewsCount": 168,
+      "stock": 18,
+      "reservedStock": 3,
+      "reorderLevel": 5,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Sony East Africa Warranty",
+      "isFeatured": true,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=800&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "30% smaller volume and 18% lighter than original PS5 with expanded 1TB internal SSD storage, detachable Ultra HD Blu-ray disc drive, Tempest 3D AudioTech, and lightning-fast loading speeds.",
+      "variants": [
+        {
+          "id": "v-57",
+          "name": "1TB Disc Edition + 1 Controller",
+          "sku": "SNY-PS5-SLIM-DISC-1TB",
+          "price": 82000,
+          "stock": 12,
+          "storage": "1TB SSD",
+          "color": "Two-Tone White/Black"
+        },
+        {
+          "id": "v-58",
+          "name": "1TB Disc Edition + 2 Controllers Bundle",
+          "sku": "SNY-PS5-SLIM-BUNDLE",
+          "price": 92000,
+          "stock": 6,
+          "storage": "1TB SSD",
+          "color": "Two-Tone White/Black"
+        }
+      ],
+      "specs": {
+        "Architecture": {
+          "CPU": "AMD Ryzen Zen 2 (8 Cores / 16 Threads up to 3.5GHz)",
+          "GPU": "AMD Radeon RDNA 2 based graphics engine (10.3 TFLOPS)"
+        },
+        "Storage": {
+          "Capacity": "1TB Custom PCIe 4.0 NVMe SSD (5.5GB/s Raw read speed)"
+        }
+      }
+    },
+    {
+      "id": "prod-rog-ally-x",
+      "name": "ASUS ROG Ally X Handheld Gaming Console (2024)",
+      "slug": "asus-rog-ally-x-handheld-gaming-console",
+      "brand": "ASUS",
+      "brandId": "b-asus",
+      "category": "Gaming",
+      "categoryId": "cat-gaming",
+      "subcategory": "Handheld Rigs (Steam Deck, ROG Ally)",
+      "sku": "ASUS-ALLY-X-24G-1TB",
+      "shortSpecs": "AMD Ryzen Z1 Extreme | 24GB LPDDR5X-7500 RAM | 1TB M.2 2280 NVMe SSD | 80Wh Double Battery | 7\" FHD 120Hz 500-nit FreeSync Premium | Windows 11",
+      "price": 125000,
+      "compareAtPrice": 140000,
+      "costPrice": 108000,
+      "rating": 4.9,
+      "reviewsCount": 39,
+      "stock": 8,
+      "reservedStock": 1,
+      "reorderLevel": 2,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years ASUS Warranty",
+      "isFeatured": true,
+      "isFlashDeal": false,
+      "isNewArrival": true,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The undisputed king of handheld PC gaming. Massive 80Wh battery (double the original Ally), 24GB high-speed memory, full-size 2280 SSD slot, USB4 40Gbps port, and redesigned ergonomic grips with Hall Effect joysticks.",
+      "variants": [
+        {
+          "id": "v-59",
+          "name": "24GB RAM / 1TB SSD / Black",
+          "sku": "ASUS-ALLY-X-24G-1TB",
+          "price": 125000,
+          "stock": 8,
+          "storage": "1TB SSD",
+          "color": "Matte Black"
+        }
+      ],
+      "specs": {
+        "Performance": {
+          "Processor": "AMD Ryzen Z1 Extreme (8 Cores, 16 Threads, up to 5.1GHz, 24MB Cache)",
+          "Graphics": "AMD Radeon Graphics (RDNA 3, 12 CUs, up to 2.7GHz, 8.6 TFLOPS)"
+        },
+        "Battery": {
+          "Capacity": "80Wh 4-cell Li-ion (Up to 8-10 hours AAA gaming)"
+        }
+      }
+    },
+    {
+      "id": "prod-xbox-seriesx",
+      "name": "Microsoft Xbox Series X 1TB Console",
+      "slug": "microsoft-xbox-series-x-1tb-console",
+      "brand": "Microsoft",
+      "brandId": "b-microsoft",
+      "category": "Gaming",
+      "categoryId": "cat-gaming",
+      "subcategory": "Consoles (PS5, Xbox, Switch)",
+      "sku": "MSFT-XBOX-SX-1TB",
+      "shortSpecs": "12 TFLOPS Processing Power | 1TB Custom NVMe SSD | True 4K 120FPS Gaming | Quick Resume for Multiple Games | Xbox Game Pass Ready",
+      "price": 78000,
+      "compareAtPrice": 88000,
+      "costPrice": 66000,
+      "rating": 4.8,
+      "reviewsCount": 72,
+      "stock": 10,
+      "reservedStock": 1,
+      "reorderLevel": 3,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Microsoft Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "isNewArrival": false,
+      "isBestSeller": true,
+      "thumbnail": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The fastest, most powerful Xbox ever created. Experience DirectX ray tracing, instant Quick Resume jumping between multiple suspended games, and Dolby Vision / Dolby Atmos spatial gaming.",
+      "variants": [
+        {
+          "id": "v-60",
+          "name": "1TB Carbon Black",
+          "sku": "MSFT-XBOX-SX-1TB",
+          "price": 78000,
+          "stock": 10,
+          "storage": "1TB",
+          "color": "Carbon Black"
+        }
+      ],
+      "specs": {
+        "Performance": {
+          "GPU": "12 TFLOPS, 52 CUs @ 1.825 GHz Custom RDNA 2"
+        }
+      }
+    },
+    {
+      "id": "prod-iph15pm",
+      "name": "Apple iPhone 15 Pro Max",
+      "slug": "apple-iphone-15-pro-max",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Apple iPhone",
+      "sku": "IPH15PM-256-BLU",
+      "shortSpecs": "256GB | 8GB RAM | 5G | 6.7\" Super Retina XDR OLED | A17 Pro | 48MP 5x Optical Zoom",
+      "price": 175000,
+      "compareAtPrice": 195000,
+      "costPrice": 150000,
+      "rating": 4.8,
+      "reviewsCount": 112,
+      "stock": 15,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Apple Warranty",
+      "isFeatured": true,
+      "thumbnail": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "iPhone 15 Pro Max in Blue Titanium. USB-C 3.0, Action Button, and exceptional battery life.",
+      "variants": [
+        {
+          "id": "v-ph-1",
+          "name": "256GB / Blue Titanium",
+          "sku": "IPH15PM-256-BLU",
+          "price": 175000,
+          "stock": 15,
+          "storage": "256GB",
+          "color": "Blue Titanium"
+        }
+      ],
+      "specs": {
+        "Display": {
+          "Screen": "6.7\" OLED 120Hz"
+        },
+        "Chip": {
+          "Processor": "A17 Pro (3nm)"
+        }
+      }
+    },
+    {
+      "id": "prod-iph15",
+      "name": "Apple iPhone 15",
+      "slug": "apple-iphone-15",
+      "brand": "Apple",
+      "brandId": "b-apple",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Apple iPhone",
+      "sku": "IPH15-128-PNK",
+      "shortSpecs": "128GB | 6GB RAM | 5G | 6.1\" Super Retina XDR | Dynamic Island | 48MP Main Camera",
+      "price": 115000,
+      "compareAtPrice": 128000,
+      "costPrice": 98000,
+      "rating": 4.8,
+      "reviewsCount": 88,
+      "stock": 20,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Apple Warranty",
+      "isFeatured": false,
+      "thumbnail": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Features Dynamic Island, 48MP main camera with 2x telephoto crop, color-infused back glass, and USB-C.",
+      "variants": [
+        {
+          "id": "v-ph-2",
+          "name": "128GB / Black",
+          "sku": "IPH15-128-BLK",
+          "price": 115000,
+          "stock": 10,
+          "storage": "128GB",
+          "color": "Black"
+        },
+        {
+          "id": "v-ph-3",
+          "name": "128GB / Pink",
+          "sku": "IPH15-128-PNK",
+          "price": 115000,
+          "stock": 10,
+          "storage": "128GB",
+          "color": "Pink"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "A16 Bionic"
+        }
+      }
+    },
+    {
+      "id": "prod-sam-s24plus",
+      "name": "Samsung Galaxy S24+ 5G",
+      "slug": "samsung-galaxy-s24-plus-5g",
+      "brand": "Samsung",
+      "brandId": "b-samsung",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Samsung Galaxy",
+      "sku": "SAM-S24P-256-BLK",
+      "shortSpecs": "256GB | 12GB RAM | 5G | 6.7\" QHD+ Dynamic AMOLED 2X 120Hz | Galaxy AI | 4900mAh Battery",
+      "price": 135000,
+      "compareAtPrice": 148000,
+      "costPrice": 118000,
+      "rating": 4.8,
+      "reviewsCount": 46,
+      "stock": 14,
+      "condition": "Brand New Sealed",
+      "warranty": "2 Years Samsung Warranty",
+      "isFeatured": true,
+      "thumbnail": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Enhanced QHD+ display with 12GB RAM standard, Armor Aluminum 2.0 frame, and 45W fast charging.",
+      "variants": [
+        {
+          "id": "v-ph-4",
+          "name": "256GB / Onyx Black",
+          "sku": "SAM-S24P-256-BLK",
+          "price": 135000,
+          "stock": 14,
+          "storage": "256GB",
+          "color": "Onyx Black"
+        }
+      ],
+      "specs": {
+        "Battery": {
+          "Size": "4900 mAh",
+          "Speed": "45W Fast Charging"
+        }
+      }
+    },
+    {
+      "id": "prod-px8a",
+      "name": "Google Pixel 8a 5G (Best Value Camera)",
+      "slug": "google-pixel-8a-5g",
+      "brand": "Google",
+      "brandId": "b-google",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Google Pixel",
+      "sku": "GGL-PX8A-128-BAY",
+      "shortSpecs": "128GB | 8GB RAM | 5G | 6.1\" Actua OLED 120Hz | Google Tensor G3 | Best Take & Magic Audio Eraser",
+      "price": 68000,
+      "compareAtPrice": 76000,
+      "costPrice": 58000,
+      "rating": 4.8,
+      "reviewsCount": 54,
+      "stock": 16,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "The AI phone for less. 120Hz display, Google Tensor G3 processor, IP67 water resistance, and 7 years of software updates.",
+      "variants": [
+        {
+          "id": "v-ph-5",
+          "name": "128GB / Bay Blue",
+          "sku": "GGL-PX8A-128-BAY",
+          "price": 68000,
+          "stock": 9,
+          "storage": "128GB",
+          "color": "Bay Blue"
+        },
+        {
+          "id": "v-ph-6",
+          "name": "128GB / Obsidian",
+          "sku": "GGL-PX8A-128-OBS",
+          "price": 68000,
+          "stock": 7,
+          "storage": "128GB",
+          "color": "Obsidian"
+        }
+      ],
+      "specs": {
+        "Processor": {
+          "CPU": "Google Tensor G3"
+        }
+      }
+    },
+    {
+      "id": "prod-op-12",
+      "name": "OnePlus 12 5G (Hasselblad Camera)",
+      "slug": "oneplus-12-5g-hasselblad",
+      "brand": "OnePlus",
+      "brandId": "b-asus",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "OnePlus",
+      "sku": "OP-12-512-GRN",
+      "shortSpecs": "512GB | 16GB RAM | 5G | 6.82\" 2K 120Hz ProXDR AMOLED | Snapdragon 8 Gen 3 | 5400mAh | 100W SUPERVOOC",
+      "price": 128000,
+      "compareAtPrice": 142000,
+      "costPrice": 110000,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "stock": 11,
+      "condition": "Brand New Sealed",
+      "warranty": "1 Year Official Warranty",
+      "isFeatured": true,
+      "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Peak flagship performance with 4th Gen Hasselblad Camera for Mobile, Aqua Touch screen responsive in rain, and 100W wired / 50W wireless charging.",
+      "variants": [
+        {
+          "id": "v-ph-7",
+          "name": "512GB / Flowy Emerald",
+          "sku": "OP-12-512-GRN",
+          "price": 128000,
+          "stock": 11,
+          "storage": "512GB",
+          "color": "Flowy Emerald"
+        }
+      ],
+      "specs": {
+        "Charging": {
+          "Wired": "100W SUPERVOOC (1-100% in 26 mins)",
+          "Battery": "5400 mAh Dual-Cell"
+        }
+      }
+    },
+    {
+      "id": "prod-tec-c30p",
+      "name": "Tecno Camon 30 Premier 5G",
+      "slug": "tecno-camon-30-premier-5g",
+      "brand": "Tecno",
+      "brandId": "b-samsung",
+      "category": "Smartphones",
+      "categoryId": "cat-smartphones",
+      "subcategory": "Tecno & Infinix",
+      "sku": "TEC-C30P-512-ALPS",
+      "shortSpecs": "512GB | 12GB+12GB Extended RAM | 5G | 6.77\" 1.5K 120Hz LTPO AMOLED | Sony PolarAce AI Imaging | 70W Ultra Charge",
+      "price": 62000,
+      "compareAtPrice": 69000,
+      "costPrice": 52000,
+      "rating": 4.7,
+      "reviewsCount": 51,
+      "stock": 18,
+      "condition": "Brand New Sealed",
+      "warranty": "24+1 Months Carlcare Warranty",
+      "isFeatured": false,
+      "isFlashDeal": true,
+      "flashDealEnds": "2026-10-31T23:59:59Z",
+      "thumbnail": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&auto=format&fit=crop&q=80"
+      ],
+      "description": "Pioneering PolarAce Dual Chip imaging system with 50MP Sony IMX890 OIS main camera, 50MP periscope telephoto, and genuine action-dot recording light.",
+      "variants": [
+        {
+          "id": "v-ph-8",
+          "name": "512GB / Alps Snowy Silver",
+          "sku": "TEC-C30P-512-ALPS",
+          "price": 62000,
+          "stock": 18,
+          "storage": "512GB",
+          "color": "Snowy Silver"
+        }
+      ],
+      "specs": {
+        "Camera": {
+          "Sensors": "Triple 50MP Rear + 50MP Eye-Tracking Front Camera"
+        }
+      }
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "post-1",
+      "title": "iPhone 16 Pro Max vs Samsung Galaxy S24 Ultra: The Definitive 2026 Comparison in Kenya",
+      "slug": "iphone-16-pro-max-vs-samsung-galaxy-s24-ultra-kenya",
+      "category": "Buying Guides",
+      "author": "Alexander Kiprono (Senior Tech Editor)",
+      "date": "2026-08-15",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80",
+      "excerpt": "Comparing battery endurance, camera zoom, local 5G reception, and Apple Intelligence vs Galaxy AI for Kenyan smartphone buyers.",
+      "content": "When choosing between Apple's flagship iPhone 16 Pro Max and Samsung's Galaxy S24 Ultra in Kenya, several critical factors come into play: daylight portrait rendering under harsh equatorial sun, Safaricom & Airtel 5G compatibility, battery drain during heavy WhatsApp and navigation use, and resale value on the local market...",
+      "tags": [
+        "iPhone 16 Pro Max",
+        "Galaxy S24 Ultra",
+        "Flagship Phones",
+        "Smartphone Buying Guide"
+      ]
+    },
+    {
+      "id": "post-2",
+      "title": "Best Business & Engineering Laptops in Kenya Under KES 150,000",
+      "slug": "best-business-engineering-laptops-kenya-2026",
+      "category": "Laptop Reviews",
+      "author": "Faith Wambui (Hardware Specialist)",
+      "date": "2026-08-10",
+      "readTime": "8 min read",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "excerpt": "Top recommendations for software developers, AutoCAD engineers, corporate executives, and remote workers looking for reliability, battery life, and durability.",
+      "content": "A reliable laptop in Nairobi must withstand fluctuating power, offer 10+ hours of off-grid battery during meetings or power rationing, and provide rapid RAM expansion. We break down why the Dell Latitude series and Apple M2/M3 MacBook Air lead the pack in price-to-performance...",
+      "tags": [
+        "MacBook Air",
+        "Dell Latitude",
+        "Developer Laptops",
+        "Kenyan Tech"
+      ]
+    },
+    {
+      "id": "post-3",
+      "title": "Why You Need a 100W GaN Charger: Say Goodbye to Bulky Laptop Bricks",
+      "slug": "why-you-need-gan-charger-guide",
+      "category": "Technology News",
+      "author": "David Ochieng (Gadget Reviewer)",
+      "date": "2026-08-01",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80",
+      "excerpt": "How Gallium Nitride (GaN) technology reduced charger sizes by 50% while allowing simultaneous fast charging for laptops, phones, and smartwatches.",
+      "content": "Gallium Nitride semiconductors operate at much higher thermal efficiency than traditional silicon. This allows chargers like the Anker Prime 100W to fit in your pocket while powering a 16-inch MacBook Pro, an iPhone 16 Pro, and an Apple Watch simultaneously with zero overheating...",
+      "tags": [
+        "Anker Prime",
+        "GaN Technology",
+        "Fast Charging",
+        "Accessories"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1788860460645",
+      "productId": "prod-iph16pm",
+      "userId": "b9a342bf-e7c5-4bf2-a3d8-e005d56c5b87",
+      "userName": "Test Customer",
+      "userCity": "Nairobi",
+      "rating": 5,
+      "title": "Great",
+      "comment": "test review",
+      "date": "2026-09-08",
+      "verifiedPurchase": false
+    },
+    {
+      "id": "rev-1",
+      "productId": "prod-iph16pm",
+      "userName": "Brian Otieno",
+      "userCity": "Nairobi (Kilimani)",
+      "rating": 5,
+      "title": "Phenomenal battery life and buttery smooth 120Hz display!",
+      "comment": "Bought the iPhone 16 Pro Max in Natural Titanium. NexusTech delivered it to my office in Upper Hill within 2 hours of payment via M-Pesa. Official warranty verified on Apple check-coverage website.",
+      "date": "2026-08-20",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-2",
+      "productId": "prod-s24ultra",
+      "userName": "Mercy Chebet",
+      "userCity": "Eldoret",
+      "rating": 5,
+      "title": "Galaxy AI translation and S-Pen are game changers for business",
+      "comment": "The anti-reflective screen on the S24 Ultra is incredible outdoors. Ordered on Tuesday afternoon, arrived in Eldoret via G4S courier Wednesday morning. Sealed box with original Samsung seal intact.",
+      "date": "2026-08-18",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-3",
+      "productId": "prod-mbp16-m3max",
+      "userName": "Kevin Mutua (VFX Artist)",
+      "userCity": "Nairobi (Westlands)",
+      "rating": 5,
+      "title": "Renders 8K Blackmagic RAW video in realtime with 0 fan noise!",
+      "comment": "This M3 Max machine replaced my heavy desktop workstation. Battery life lasts all day at client shoots. Fantastic service by the NexusTech team at Sarit Centre.",
+      "date": "2026-08-12",
+      "verifiedPurchase": true
+    },
+    {
+      "id": "rev-4",
+      "productId": "prod-sony-xm5",
+      "userName": "Esther Akinyi",
+      "userCity": "Mombasa",
+      "rating": 5,
+      "title": "Best noise cancellation for flights and coffee shops",
+      "comment": "Cuts out all background engine drone and office chatter. Battery easily lasts the whole week on a single charge. Sound quality with LDAC is crystal clear.",
+      "date": "2026-08-05",
+      "verifiedPurchase": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1787841190167",
+      "orderNumber": "ORD-2026-000002",
+      "customer": {
+        "name": "Grace Wanjiru",
+        "email": "grace.wanjiru@gmail.com",
+        "phone": "+254722334455"
+      },
+      "items": [
+        {
+          "productId": "prod-iph16pm",
+          "variantId": null,
+          "name": "Apple iPhone 16 Pro Max",
+          "variantName": null,
+          "sku": "IPH16PM-256-NAT",
+          "price": 215000,
+          "quantity": 1,
+          "thumbnail": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80"
+        }
+      ],
+      "subtotal": 215000,
+      "discountAmount": 0,
+      "couponCode": null,
+      "deliveryFee": 350,
+      "taxAmount": 29655,
+      "total": 215350,
+      "currency": "KES",
+      "status": "Processing",
+      "paymentStatus": "Paid",
+      "paymentMethod": "M-Pesa STK Push",
+      "paymentReference": "QKD782194XLP",
+      "deliveryMethod": "Nairobi Same-Day Courier",
+      "deliveryAddress": {
+        "county": "Nairobi",
+        "town": "Westlands",
+        "street": "Waiyaki Way",
+        "building": "Delta Corner Tower B"
+      },
+      "trackingNumber": "NEX-780121",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-08-27T14:33:10.168Z",
+          "note": "Order ORD-2026-000002 placed via web portal."
+        },
+        {
+          "status": "Payment Confirmed",
+          "timestamp": "2026-08-27T14:33:27.966Z",
+          "note": "M-Pesa STK Push payment of KES 215,350 confirmed. Receipt: QKD782194XLP"
+        }
+      ],
+      "createdAt": "2026-08-27T14:33:10.168Z",
+      "paymentDetails": {
+        "checkoutRequestId": "ws_CO_1787841207934_65322",
+        "merchantRequestId": "MR_365982",
+        "phone": "254722334455",
+        "amount": 215350,
+        "status": "COMPLETED",
+        "initiatedAt": "2026-08-27T14:33:27.934Z",
+        "mpesaReceipt": "QKD921072XLP",
+        "paidAt": "2026-08-27T14:33:27.966Z"
+      }
+    },
+    {
+      "id": "ord-101",
+      "orderNumber": "ORD-2026-000101",
+      "customer": {
+        "name": "Dennis Mwangi",
+        "email": "dennis.mwangi@gmail.com",
+        "phone": "+254 712 345 678"
+      },
+      "items": [
+        {
+          "productId": "prod-iph16pm",
+          "variantId": "v-1",
+          "name": "Apple iPhone 16 Pro Max",
+          "variantName": "256GB / Natural Titanium",
+          "sku": "IPH16PM-256-NAT",
+          "price": 215000,
+          "quantity": 1,
+          "thumbnail": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&auto=format&fit=crop&q=80"
+        },
+        {
+          "productId": "prod-anker-prime100w",
+          "variantId": "v-49",
+          "name": "Anker Prime 100W GaN 3-Port Fast Wall Charger",
+          "variantName": "Black Anodized",
+          "sku": "ANK-PRIME-100W-BLK",
+          "price": 9800,
+          "quantity": 1,
+          "thumbnail": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80"
+        }
+      ],
+      "subtotal": 224800,
+      "discountAmount": 10000,
+      "couponCode": "TECH2026",
+      "deliveryFee": 350,
+      "taxAmount": 29627,
+      "total": 215150,
+      "currency": "KES",
+      "status": "Delivered",
+      "paymentStatus": "Paid",
+      "paymentMethod": "M-Pesa STK Push",
+      "paymentReference": "QKD7889XLP12",
+      "deliveryMethod": "Nairobi Metro Same-Day Express",
+      "deliveryAddress": {
+        "county": "Nairobi",
+        "town": "Kilimani",
+        "street": "Argwings Kodhek Road",
+        "building": "Silverstone Towers, Apt 4B",
+        "deliveryNotes": "Leave with security guard if not available"
+      },
+      "trackingNumber": "NEX-EXP-889021",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-08-25T09:15:00Z",
+          "note": "Customer submitted checkout via web portal"
+        },
+        {
+          "status": "Payment Confirmed",
+          "timestamp": "2026-08-25T09:16:12Z",
+          "note": "M-Pesa reference QKD7889XLP12 verified successfully"
+        },
+        {
+          "status": "Order Processed",
+          "timestamp": "2026-08-25T09:30:00Z",
+          "note": "Packed by Inventory Team at Kimathi Store"
+        },
+        {
+          "status": "Package Dispatched",
+          "timestamp": "2026-08-25T10:00:00Z",
+          "note": "Handed to Express Courier (Rider Peter +254 711 223 344)"
+        },
+        {
+          "status": "Out for Delivery",
+          "timestamp": "2026-08-25T10:45:00Z",
+          "note": "Courier arriving in Kilimani area"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-08-25T11:20:00Z",
+          "note": "Signed by Dennis Mwangi"
+        }
+      ],
+      "createdAt": "2026-08-25T09:15:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1788849860604-429",
+      "userId": "usr-cust-01",
+      "userName": "Dennis Mwangi",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "dennis.mwangi@gmail.com",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:44:20.604Z"
+    },
+    {
+      "id": "log-1788849633302-139",
+      "userId": "usr-cust-01",
+      "userName": "Dennis Mwangi",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "dennis.mwangi@gmail.com",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:40:33.302Z"
+    },
+    {
+      "id": "log-1788849630469-268",
+      "userId": "usr-cust-01",
+      "userName": "Dennis Mwangi",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "dennis.mwangi@gmail.com",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:40:30.469Z"
+    },
+    {
+      "id": "log-1788848005176-669",
+      "userId": "usr-cust-01",
+      "userName": "Dennis Mwangi",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "dennis.mwangi@gmail.com",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:13:25.176Z"
+    },
+    {
+      "id": "log-1788848002662-492",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "admin@nexustech.co.ke",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:13:22.662Z"
+    },
+    {
+      "id": "log-1788848000110-933",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "admin@nexustech.co.ke",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:13:20.110Z"
+    },
+    {
+      "id": "log-1788847997741-71",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "admin@nexustech.co.ke",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:13:17.741Z"
+    },
+    {
+      "id": "log-1788847991439-881",
+      "userId": "usr-cust-01",
+      "userName": "Dennis Mwangi",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "dennis.mwangi@gmail.com",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-09-08T06:13:11.439Z"
+    },
+    {
+      "id": "log-1787841357590-554",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "admin@nexustech.co.ke",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-27T14:35:57.590Z"
+    },
+    {
+      "id": "log-1787841352494-765",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "USER_LOGIN",
+      "entity": "Authentication",
+      "record": "admin@nexustech.co.ke",
+      "previousValue": "Logged Out",
+      "newValue": "Logged In",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-27T14:35:52.494Z"
+    },
+    {
+      "id": "log-1787841207967-55",
+      "userId": "grace.wanjiru@gmail.com",
+      "userName": "Grace Wanjiru",
+      "action": "PAYMENT_CONFIRMED",
+      "entity": "Order",
+      "record": "ORD-2026-000002",
+      "previousValue": "Pending",
+      "newValue": "Paid via M-Pesa (QKD782194XLP)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-27T14:33:27.967Z"
+    },
+    {
+      "id": "log-1787841190258-339",
+      "userId": "grace.wanjiru@gmail.com",
+      "userName": "Grace Wanjiru",
+      "action": "ORDER_CREATED",
+      "entity": "Order",
+      "record": "ORD-2026-000002",
+      "previousValue": "None",
+      "newValue": "Total: KES 215,350 (M-Pesa STK Push)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-08-27T14:33:10.258Z"
+    },
+    {
+      "id": "log-1",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "PRICE_UPDATE",
+      "entity": "Product",
+      "record": "Apple iPhone 16 Pro Max",
+      "previousValue": "KES 225,000",
+      "newValue": "KES 215,000",
+      "ip": "192.168.1.223",
+      "timestamp": "2026-08-26T14:30:00Z"
+    },
+    {
+      "id": "log-2",
+      "userId": "usr-mgr-01",
+      "userName": "Faith Njeri (Store Manager)",
+      "action": "STOCK_ADJUSTMENT",
+      "entity": "Inventory",
+      "record": "Sony WH-1000XM5 (Black)",
+      "previousValue": "18 Units",
+      "newValue": "28 Units (New Stock Inbound)",
+      "ip": "192.168.1.104",
+      "timestamp": "2026-08-26T11:15:00Z"
+    },
+    {
+      "id": "log-3",
+      "userId": "usr-admin-01",
+      "userName": "Abbey Kibet (Super Admin)",
+      "action": "ORDER_STATUS_UPDATE",
+      "entity": "Order",
+      "record": "ORD-2026-000101",
+      "previousValue": "Out for Delivery",
+      "newValue": "Delivered",
+      "ip": "192.168.1.223",
+      "timestamp": "2026-08-25T11:20:00Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt-101",
+      "ticketNumber": "TKT-8801",
+      "customerName": "Samson Cheruiyot",
+      "customerEmail": "samson.c@gmail.com",
+      "customerPhone": "+254 720 889 900",
+      "subject": "Compatibility inquiry: Dell XPS 15 9530 RAM expansion to 64GB",
+      "category": "Technical Compatibility",
+      "priority": "Medium",
+      "status": "Resolved",
+      "assignedTo": "Faith Njeri (Store Manager)",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hello, I want to confirm if the Dell XPS 15 model 9530 you have in stock accepts 2x 32GB DDR5 5600MHz RAM modules.",
+          "timestamp": "2026-08-24T10:00:00Z"
+        },
+        {
+          "sender": "staff",
+          "text": "Hi Samson! Yes, the Dell XPS 15 9530 has two standard SO-DIMM DDR5 slots and fully supports up to 64GB RAM. We can even install and test the Crucial/Corsair 64GB kit for you in-store free of charge!",
+          "timestamp": "2026-08-24T10:25:00Z"
+        }
+      ],
+      "createdAt": "2026-08-24T10:00:00Z"
+    }
+  ],
+  "newsletterSubscribers": [
+    {
+      "email": "dennis.mwangi@gmail.com",
+      "subscribedAt": "2026-08-01T10:00:00Z"
+    },
+    {
+      "email": "mercy.chebet@outlook.com",
+      "subscribedAt": "2026-08-15T14:30:00Z"
+    }
+  ]
+}
