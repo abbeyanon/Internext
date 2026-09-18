@@ -76,17 +76,26 @@ app.use('/uploads', express.static(uploadsPath));
 
 // Health check endpoint
 app.get('/api/health', async (req, res) => {
-  const [[{ productsCount }], [{ ordersCount }]] = await Promise.all([
-    db.select({ productsCount: sql`count(*)::int` }).from(products),
-    db.select({ ordersCount: sql`count(*)::int` }).from(orders)
-  ]);
-  res.json({
-    status: 'ok',
-    storeName: 'Internext Business System',
-    productsCount,
-    ordersCount,
-    timestamp: new Date().toISOString()
-  });
+  try {
+    const [[{ productsCount }], [{ ordersCount }]] = await Promise.all([
+      db.select({ productsCount: sql`count(*)::int` }).from(products),
+      db.select({ ordersCount: sql`count(*)::int` }).from(orders)
+    ]);
+    res.json({
+      status: 'ok',
+      storeName: 'Internext Business System',
+      productsCount,
+      ordersCount,
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    console.error('Health check database query failed:', error);
+    res.status(503).json({
+      status: 'unavailable',
+      code: 'DATABASE_UNAVAILABLE',
+      message: 'The database could not be reached. Check DATABASE_URL and database network access.'
+    });
+  }
 });
 
 // Serve frontend public and dist assets
